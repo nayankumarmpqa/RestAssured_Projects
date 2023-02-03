@@ -4,16 +4,16 @@ import java.util.List;
 
 public class CoursesChildJsonClass {
 
-    private List<WeAutomation> webAutomation;
+    private List<WebAutomation> webAutomation;
     private List<Api> api;
     private List<Mobile> mobile;
 
 
-    public List<WeAutomation> getWebAutomation() {
+    public List<WebAutomation> getWebAutomation() {
         return webAutomation;
     }
 
-    public void setWebAutomation(List<WeAutomation> webAutomation) {
+    public void setWebAutomation(List<WebAutomation> webAutomation) {
         this.webAutomation = webAutomation;
     }
 

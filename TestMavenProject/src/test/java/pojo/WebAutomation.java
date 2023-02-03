@@ -1,6 +1,6 @@
 package pojo;
 
-public class WeAutomation {
+public class WebAutomation {
 
 
     public String getCourseTitle() {

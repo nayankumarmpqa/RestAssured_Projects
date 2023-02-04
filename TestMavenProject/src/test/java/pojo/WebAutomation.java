@@ -3,6 +3,9 @@ package pojo;
 public class WebAutomation {
 
 
+    private String courseTitle;
+    private String price;
+
     public String getCourseTitle() {
         return courseTitle;
     }
@@ -12,15 +15,13 @@ public class WebAutomation {
     }
 
     public String getOrice() {
-        return orice;
+        return price;
     }
 
     public void setOrice(String orice) {
-        this.orice = orice;
+        this.price = orice;
     }
 
-    private String courseTitle;
-    private String orice;
 
 
 

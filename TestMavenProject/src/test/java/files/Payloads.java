@@ -69,4 +69,58 @@ public class Payloads {
                 "}";
         return addBookPayload;
     }
+
+    public static String coursesResponseJson(){
+        return "{\n" +
+                "\t\"url\": \"nayan.com\",\n" +
+                "\t\"services\": \"Projectsupport\",\n" +
+                "\t\"expertise\": \"Automation\",\n" +
+                "\t\"courses\": {\n" +
+                "\t\t\"webAutomation\": [\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Selenium\",\n" +
+                "\t\t\t\t\"price\": \"50\"\n" +
+                "\t\t\t},\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Protractor\",\n" +
+                "\t\t\t\t\"price\": \"40\"\n" +
+                "\t\t\t},\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Cypress\",\n" +
+                "\t\t\t\t\"price\": \"30\"\n" +
+                "\t\t\t}\n" +
+                "\t\t],\n" +
+                "\t\t\"API\": [\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Selenium\",\n" +
+                "\t\t\t\t\"price\": \"50\"\n" +
+                "\t\t\t},\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Protractor\",\n" +
+                "\t\t\t\t\"price\": \"40\"\n" +
+                "\t\t\t},\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Cypress\",\n" +
+                "\t\t\t\t\"price\": \"30\"\n" +
+                "\t\t\t}\n" +
+                "\t\t],\n" +
+                "\t\t\"Mobile\": [\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Selenium\",\n" +
+                "\t\t\t\t\"price\": \"50\"\n" +
+                "\t\t\t},\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Protractor\",\n" +
+                "\t\t\t\t\"price\": \"40\"\n" +
+                "\t\t\t},\n" +
+                "\t\t\t{\n" +
+                "\t\t\t\t\"courseTitle\": \"Cypress\",\n" +
+                "\t\t\t\t\"price\": \"30\"\n" +
+                "\t\t\t}\n" +
+                "\t\t]\n" +
+                "\t},\n" +
+                "\t\"instructor\": \"Nayan\",\n" +
+                "\t\"linkedIn\": \"nayanlinkedin.com/in/nk\"\n" +
+                "}";
+    }
 }

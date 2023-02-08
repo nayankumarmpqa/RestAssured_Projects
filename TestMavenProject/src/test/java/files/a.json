@@ -1,0 +1,51 @@
+{
+  "url": "nayan.com",
+  "services": "Projectsupport",
+  "expertise": "Automation",
+  "courses": {
+    "webAutomation": [
+      {
+        "courseTitle": "Selenium",
+        "price": "50"
+      },
+      {
+        "courseTitle": "Protractor",
+        "price": "40"
+      },
+      {
+        "courseTitle": "Cypress",
+        "price": "30"
+      }
+    ],
+    "API": [
+      {
+        "courseTitle": "Selenium",
+        "price": "50"
+      },
+      {
+        "courseTitle": "Protractor",
+        "price": "40"
+      },
+      {
+        "courseTitle": "Cypress",
+        "price": "30"
+      }
+    ],
+    "Mobile": [
+      {
+        "courseTitle": "Selenium",
+        "price": "50"
+      },
+      {
+        "courseTitle": "Protractor",
+        "price": "40"
+      },
+      {
+        "courseTitle": "Cypress",
+        "price": "30"
+      }
+    ]
+  },
+  "instructor": "Nayan",
+  "linkedIn": "nayanlinkedin.com/in/nk"
+}

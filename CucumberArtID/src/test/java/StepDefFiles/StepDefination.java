@@ -28,4 +28,17 @@ public class StepDefination {
         System.out.println("Cards_are_displayed");
 
     }
+
+
+
+    @When("User Login with {string} and {string}")
+    public void user_login_with_and(String string, String string2) {
+        // Write code here that turns the phrase above into concrete actions
+
+        System.out.println("public void user_login_with_and(String string, String string2) is :" + string + "-" + string2);
+    }
+    @Then("Cards are not displayed")
+    public void cards_are_not_displayed() {
+        System.out.println("cards_are_not_displayed");
+    }
 }

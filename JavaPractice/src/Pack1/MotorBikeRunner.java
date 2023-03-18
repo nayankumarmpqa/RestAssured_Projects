@@ -11,28 +11,32 @@ public class MotorBikeRunner {
         // it is also accessing the variables of object which is not good for encapsulation
         // so we should make the var private
         //honda.speed = 80;
-
-        ducati.setSpeed(100);
+//        ducati.setSpeed(100);
 
         //increasing the ducati speed
         //it is another benefit of encapsulation
-        int ducatiSpeed = ducati.getSpeed();
-        ducatiSpeed = ducatiSpeed+100;
-        ducati.setSpeed(ducatiSpeed);
+//        int ducatiSpeed = ducati.getSpeed();
+//        ducatiSpeed = ducatiSpeed+100;
+//        ducati.setSpeed(ducatiSpeed);
+//
+//        //increasing the honda speed
+//        int hondaSpeed = ducati.getSpeed();
+//        hondaSpeed = hondaSpeed+100;
+//        ducati.setSpeed(hondaSpeed);
+
+        System.out.println(ducati.getSpeed());
+        System.out.println(honda.getSpeed());
 
 
-//        honda.setSpeed(80);
-
-
-//        ducati.speed = 20;
-//        honda.speed = 0;
-
-//        ducati.setSpeed(20);
-//        honda.setSpeed(0);
+        ducati.increaseSpeed(50);
+        ducati.decreaseSpeed(5);
 
         System.out.println(ducati.getSpeed());
 
+        honda.increaseSpeed(60);
+        honda.decreaseSpeed(3);
 
+        System.out.println(honda.getSpeed());
 
 
     }

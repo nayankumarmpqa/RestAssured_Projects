@@ -20,12 +20,12 @@ public class Book {
         return numOfBookCopies;
     }
     void increaseNumberOfBookCopies(int thisMuch){
-        setNumOfBookCopies(getNumOfBookCopies()+thisMuch);
+        setNumOfBookCopies(this.numOfBookCopies+thisMuch);
 
     }
 
     void decreaseNumberOfBookCopies(int thisMuch){
-      setNumOfBookCopies(getNumOfBookCopies()-thisMuch);
+      setNumOfBookCopies(this.numOfBookCopies-thisMuch);
     }
 
 

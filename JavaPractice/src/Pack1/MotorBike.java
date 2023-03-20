@@ -29,13 +29,13 @@ public class MotorBike {
 
     public void increaseSpeed(int howMuch) {
 
-        setSpeed(this.getSpeed() + howMuch);
+        setSpeed(this.speed + howMuch);
 
     }
 
     public void decreaseSpeed(int howMuch){
 
-        setSpeed(this.getSpeed() - howMuch);
+        setSpeed(this.speed - howMuch);
 
     }
 }

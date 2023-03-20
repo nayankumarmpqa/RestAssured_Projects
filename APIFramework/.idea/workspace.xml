@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ea8dd13-b5f9-472b-8e7b-aa182a682648" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MotorBike.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MotorBike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MotorBikeRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MotorBikeRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/src/Pack1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/src/Pack1/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/src/Pack1/BookRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/src/Pack1/BookRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/src/Pack1/MotorBike.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/src/Pack1/MotorBike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/src/Pack1/MotorBikeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/src/Pack1/MotorBikeRunner.java" afterDir="false" />
-    </list>
+    <list default="true" id="3ea8dd13-b5f9-472b-8e7b-aa182a682648" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

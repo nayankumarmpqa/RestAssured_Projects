@@ -6,9 +6,12 @@ public class BiNumberRunner {
 
         System.out.println(nums.add());
         System.out.println(nums.multiply());
-        System.out.println(nums.doubleIt());
-        nums.getNumber1();
-        nums.getNumber2();
+
+        System.out.println(nums.getNum1());
+        System.out.println(nums.getNum2());
+       nums.doubleIt();
+        System.out.println(nums.getNum1());
+        System.out.println(nums.getNum2());
 
     }
 }

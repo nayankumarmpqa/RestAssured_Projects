@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="httpclient-4.5.14-sources">
-    <CLASSES />
-    <JAVADOC />
-    <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../restAssuredJars/httpclient-4.5.14-sources.jar!/" />
-    </SOURCES>
-  </library>
-</component>

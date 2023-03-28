@@ -5,16 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="648dfd5a-7e11-40cb-8ea1-539daeabd640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../APIFramework/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/src/main/java/org/exampleGID/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../APIFramework/src/test/java/org/exampleGID/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MyChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MyChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MyCharRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/Pack1/MyCharRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/externalDependencies.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/libraries/groovy_all_4_0_7_sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/libraries/httpclient_4_5_14_sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/libraries/httpmime_4_5_14_sources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/RestAssuredProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/out/production/RestAssuredProject/Basics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/out/production/RestAssuredProject/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/src/Basics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestAssuredProject/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/src/main/resources/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/src/main/resources/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/src/main/resources/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/src/main/resources/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/target/classes/META-INF/maven/archetype.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/target/classes/archetype-resources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/target/classes/archetype-resources/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestMavenDemoProject/target/classes/archetype-resources/src/test/java/AppTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +77,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Feature_Files/Login.feature" />
       <option name="GLUE" value="Step_Definition_Files" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="RestAssuredMavenAID" />
+      <module name="CucmberBasicsMavenAID" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: Login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -69,7 +92,7 @@
       </method>
     </configuration>
     <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredMavenAID" />
+      <module name="CucmberBasicsMavenAID" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="CucumberOptions.*" />

@@ -7,8 +7,17 @@ public class MyNumberRunner {
 
     public static void main(String[] args) {
 
-        MyNumber n = new MyNumber(11);
+        MyNumber n = new MyNumber(6);
         boolean isPrime = n.isPrime();
-        System.out.println("isPrime = " + isPrime);
+        System.out.println("isPrime is = " + isPrime);
+
+        int sum = n.sumUpToN();
+        System.out.println("sumUpToN is = " + sum);
+
+        int sumOfDivisors = n.sumOfDivisors();
+        System.out.println("sumOfDivisors() is = " + sumOfDivisors);
+
+        n.printNumberTriangle();
+
     }
 }

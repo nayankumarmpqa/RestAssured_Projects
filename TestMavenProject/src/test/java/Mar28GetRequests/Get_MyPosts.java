@@ -1,13 +1,10 @@
-package Mar28;
+package Mar28GetRequests;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 import org.testng.Assert;
-import org.testng.asserts.Assertion;
-import scala.util.matching.Regex;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.equalTo;

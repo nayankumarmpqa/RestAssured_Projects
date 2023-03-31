@@ -1,4 +1,4 @@
-package Mar28;
+package Mar28GetRequests;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

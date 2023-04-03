@@ -36,7 +36,9 @@ public class Post_AddAPet {
         Response response = given()
                 .log().uri()
                 .contentType(ContentType.JSON)
-                .body(requestBody)
+                //.body(requestBody)
+                // OR we have another way to call payload form external class methods
+                .body(Post_Payloads.AddAPetRequestBody())
             .when()
                 .post("/pet")
             .then()

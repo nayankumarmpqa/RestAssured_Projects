@@ -22,7 +22,9 @@ public class Post_MyPosts {
         Response response = given()
                 .log().uri()
                 .contentType(ContentType.JSON)
-                .body(requestBody)
+               // .body(requestBody)
+                // Or we can call method from Payloads class
+                .body(Post_Payloads.myPostRequestBody("Nayan", "bar"))
             .when()
                 .post("/posts")
             .then()
@@ -32,7 +34,7 @@ public class Post_MyPosts {
                 .time(Matchers.lessThan(3000L))
                 .extract().response();
 
-        Assert.assertEquals(response.jsonPath().getString("title"), "foo");
+        Assert.assertEquals(response.jsonPath().getString("title"), "Nayan");
         Assert.assertEquals(response.jsonPath().getInt("id"), 101);
 
 

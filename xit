@@ -1,0 +1,119 @@
+[33mcommit 59eff1c0067a05dff6e7fbf12211f3490381d899[m[33m ([m[1;36mHEAD -> [m[1;32mmainwhistle[m[33m, [m[1;31morigin/mainwhistle[m[33m)[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Tue Apr 4 22:51:05 2023 +0530
+
+    pojo class practice day one
+
+[33mcommit d8b40f1a964e634190260dc9348f5b1df3922a8f[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Mon Apr 3 22:39:18 2023 +0530
+
+    payload concepts
+
+[33mcommit aed6dd49b8a4632334a054c4b4d833b892ca84a4[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sat Apr 1 01:16:30 2023 +0530
+
+    more post request practce programs
+
+[33mcommit 98b530e5daab910c2ac026f81586d55432723809[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Fri Mar 31 22:55:13 2023 +0530
+
+    Post request practice
+
+[33mcommit 9e935959a7bbe484a197101587f93f065ed2630a[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Fri Mar 31 00:48:52 2023 +0530
+
+    more get request practice
+
+[33mcommit 3f746f90187eaabd46da4c792ed1dac529d27a1c[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Thu Mar 30 17:44:07 2023 +0530
+
+    Loops practice code
+
+[33mcommit 25b7aaa3311af1e749d5ccf08dee8e59b319c160[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Wed Mar 29 15:09:40 2023 +0530
+
+    29 march RA and Loops
+
+[33mcommit b929324cff31f11231c33c7c855ae78691707b3f[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Tue Mar 28 22:49:44 2023 +0530
+
+    RestAssured Basic pragrams started again
+
+[33mcommit 76645c295a2318a88359f4a57c1669f0862ad804[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sun Mar 26 16:10:55 2023 +0530
+
+    characters practice
+
+[33mcommit 5102753f9e706906703f3f34fdebcb5e9bffaf7a[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Mon Mar 20 23:49:17 2023 +0530
+
+    data types practive classes
+
+[33mcommit dc23cdc018798eea1f9a0df8a22be7c9d3e0df09[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sat Mar 18 23:04:53 2023 +0530
+
+    Java encapsulation practice
+
+[33mcommit 6514e369d3c1677b9651c2d2a291cdec2b9f0400[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sat Mar 18 22:28:41 2023 +0530
+
+    Restarted Java practice and added a new project
+
+[33mcommit 3c33a9e44082d0881e98c9ba2e29bc6660f3209a[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sun Mar 5 23:32:54 2023 +0530
+
+    TestMavenProject name replaced with RestAssuredConcepts
+
+[33mcommit 8c9acf4060d428272473d5fb21c4f3d57603e6f9[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sun Mar 5 23:03:41 2023 +0530
+
+    APIFramework project added
+
+[33mcommit 1e7e813c3c88db6e5530b16024dc9bad30f60be7[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Wed Mar 1 21:31:43 2023 +0530
+
+    cucumberBDD maven project titled RestAssuredMavenAID added
+
+[33mcommit d36e1164a6493561908fa67d0b2deceafc84f761[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sat Feb 11 23:59:03 2023 +0530
+
+    serialization part
+
+[33mcommit e1fa30a71516af50fec592415aa7e69a8187eed1[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sat Feb 4 23:09:49 2023 +0530
+
+    spelling corrections
+
+[33mcommit 8ee042c7b8bec2e1ead979e6ec4b6b457ebb9767[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sat Feb 4 00:50:13 2023 +0530
+
+    added new webAutomation class and renamed older classes
+
+[33mcommit ad0ca41e52bd9e8c243e66d35e9107f53621d09e[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Sat Jan 28 23:38:15 2023 +0530
+
+    Pojo Deserialization concept 28Jan
+
+[33mcommit a992e7399b71937bb9871057516bc26a59089b54[m[33m ([m[1;31mmainWhistleRemoteRepo/mainwhistle[m[33m)[m
+Author: nayankumarmpqaWhistle <nayankumarmpqa@gmail.com>
+Date:   Fri Jan 27 17:40:35 2023 +0530
+
+    3rd commit from night shift folder

@@ -2,12 +2,14 @@ package pojo;
 
 public class GetCourseResponsePojoClass {
 
+
     private String url;
     private String services;
     private String expertise;
-    private CoursesChildJsonClass Courses;
     private String instructor;
     private String linkedin;
+
+    private CoursesChildJsonClass Courses;
 
     public String getUrl() {
         return url;

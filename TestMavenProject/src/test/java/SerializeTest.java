@@ -1,4 +1,6 @@
 import com.beust.ah.A;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
 
 import io.restassured.path.json.JsonPath;
@@ -18,7 +20,7 @@ import static io.restassured.RestAssured.given;
 
 public class SerializeTest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws JsonProcessingException {
 
         AddPlacePojo ap = new AddPlacePojo();
         ap.setAccuracy(50);
@@ -41,6 +43,13 @@ public class SerializeTest {
 
         ap.setTypes(myTypeList);
 
+        //Creating the ObjectMapper object
+        ObjectMapper mapper = new ObjectMapper();
+        //Converting the Object to JSONString
+        String jsonString = mapper.writeValueAsString(ap);
+        System.out.println(jsonString);
+        System.out.println("------------------------");
+
 
         CreateUserPOJO cup=new CreateUserPOJO();
         cup.setName("Nayan1");
@@ -57,3 +66,28 @@ public class SerializeTest {
         System.out.println(res.asString());
     }
 }
+
+
+/*
+
+https://www.tutorialspoint.com/how-to-convert-java-object-to-json-using-jackson-library
+
+
+{
+	"accuracy": 50,
+	"name": "Nayan house",
+	"phone_number": "8699784815",
+	"address": "Mohali ynr",
+	"website": "https://google.com",
+	"language": "Hindi",
+	"location": {
+		"lat": -38.383494,
+		"lng": 33.427362
+	},
+	"types": [
+		"type1",
+		"type2",
+		"type3"
+	]
+}
+ */

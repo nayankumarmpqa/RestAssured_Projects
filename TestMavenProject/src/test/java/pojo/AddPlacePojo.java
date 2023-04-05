@@ -12,8 +12,13 @@ public class AddPlacePojo {
     private String address;
     private String website;
     private String language;
+
     //for every nested json we should create a separate class
+    // {} flower brackets in the request or response body denotes json or nested json
+
     private Location location;
+
+    // [] square brackets in the request or response body denotes arrays
     private List<String> types;
 
     public int getAccuracy() {

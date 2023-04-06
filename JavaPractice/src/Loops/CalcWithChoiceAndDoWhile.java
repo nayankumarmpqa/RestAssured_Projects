@@ -35,14 +35,6 @@ public class CalcWithChoiceAndDoWhile {
 
         System.out.println("Invalid choice, Thank you!");
 
-
-
-
-
-
-
-
-
     }
 
     private static void performOperationWithNestedIfElse(int num1, int num2, int choice) {

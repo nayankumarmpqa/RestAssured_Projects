@@ -1,7 +1,7 @@
 package Pack1;
 
 public class BookRunner {
-    public static void main(String[] args) {
+    public static void main(StringConcepts[] args) {
 
         Book artOfComputerProgramming = new Book();
         Book effectiveJava = new Book();

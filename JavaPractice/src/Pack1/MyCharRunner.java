@@ -1,7 +1,7 @@
 package Pack1;
 
 public class MyCharRunner {
-    public static void main(String[] args) {
+    public static void main(StringConcepts[] args) {
 
         MyChar m = new MyChar('b');
 

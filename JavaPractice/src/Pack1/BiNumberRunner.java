@@ -1,7 +1,7 @@
 package Pack1;
 
 public class BiNumberRunner {
-    public static void main(String[] args) {
+    public static void main(StringConcepts[] args) {
         BiNumber nums= new BiNumber(2,3);
 
         System.out.println(nums.add());

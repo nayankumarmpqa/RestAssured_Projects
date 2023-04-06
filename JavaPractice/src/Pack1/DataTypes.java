@@ -1,11 +1,8 @@
 package Pack1;
 
-import javax.sound.midi.Soundbank;
-import java.sql.SQLOutput;
-
 public class DataTypes {
 
-    public static void main(String[] args) {
+    public static void main(StringConcepts[] args) {
 
         System.out.print(Byte.MIN_VALUE + " "); System.out.println(Byte.MAX_VALUE);
         System.out.print(Short.MIN_VALUE+ " "); System.out.println(Short.MAX_VALUE);

@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class BigDecimalConcepts {
 
-    public static void main(String[] args) {
+    public static void main(StringConcepts[] args) {
         int a=5;
         BigDecimal num1 = new BigDecimal("11.5");
         BigDecimal num2 = new BigDecimal("20.123");
@@ -13,7 +13,7 @@ public class BigDecimalConcepts {
         System.out.println(num1.add(new BigDecimal(a)));
 
 
-        Sicalc s = new Sicalc("1000.00", "5");
+        SiCalc s = new SiCalc("1000.00", "5");
 
         System.out.println(s.calculateValue(2));
     }

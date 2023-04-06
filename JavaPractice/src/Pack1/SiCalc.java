@@ -2,12 +2,12 @@ package Pack1;
 
 import java.math.BigDecimal;
 
-public class Sicalc {
+public class SiCalc {
     BigDecimal principal;
     BigDecimal interest;
 
 
-    public Sicalc(String principal, String interest) {
+    public SiCalc(String principal, String interest) {
         this.principal = new BigDecimal(principal);
         this.interest = new BigDecimal(interest).divide(new BigDecimal(100));
     }

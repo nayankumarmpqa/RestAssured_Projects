@@ -1,7 +1,7 @@
 package Pack1;
 
 public class MotorBikeRunner {
-    public static void main(String[] args) {
+    public static void main(StringConcepts[] args) {
         MotorBike ducati = new MotorBike();
         MotorBike honda = new MotorBike();
         ducati.start();

@@ -38,5 +38,15 @@ public class Root {
 
     private String createdAt;
     private Data2 data;
+
+    @Override
+    public String toString() {
+        return "Root{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", createdAt='" + createdAt + '\'' +
+                ", data=" + data +
+                '}';
+    }
 }
 

@@ -37,4 +37,14 @@ public class Data2 {
     private double price;
     private String cPUModel;
     private String hardDiskSize;
+
+    @Override
+    public String toString() {
+        return "Data2{" +
+                "year=" + year +
+                ", price=" + price +
+                ", cPUModel='" + cPUModel + '\'' +
+                ", hardDiskSize='" + hardDiskSize + '\'' +
+                '}';
+    }
 }

@@ -44,6 +44,6 @@ public class Post_AddObject_Runner {
 
         System.out.println(rc.getId());
         System.out.println(rc.getData().getPrice());
-
+        System.out.println(rc.toString());
     }
 }

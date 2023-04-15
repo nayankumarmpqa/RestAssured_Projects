@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ea8dd13-b5f9-472b-8e7b-aa182a682648" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/test.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/PetStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PetStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/PetStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/PetStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFileOutputStream.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFileOutputStream.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/WrapperClasses/WrapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/WrapperClasses/WrapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +48,7 @@
       <recent name="PoJoClasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Add a new pet to the pet store with Examples">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/test.feature" />
@@ -107,8 +105,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Add a new pet to the pet store with Examples" />
         <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Add a new pet to the pet store with Examples" />
         <item itemvalue="Cucumber Java.Feature: test" />
       </list>
     </recent_temporary>

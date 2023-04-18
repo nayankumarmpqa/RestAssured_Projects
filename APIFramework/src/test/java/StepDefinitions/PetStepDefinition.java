@@ -3,6 +3,7 @@ package StepDefinitions;
 import PoJoClasses.AddPetPojo;
 import PoJoClasses.Category;
 import PoJoClasses.Tag;
+import Resources.APIResourceEnum;
 import Resources.PayloadDataCreation;
 import Resources.Utils;
 import io.cucumber.java.en.Given;
@@ -28,7 +29,7 @@ import static io.restassured.RestAssured.given;
 public class PetStepDefinition extends Utils {
     Response actualResponse;
     PayloadDataCreation testData;
-
+    APIResourceEnum apiResourceEnum;
     @Given("Pet object that needs to be added to the store")
     public void pet_object_that_needs_to_be_added_to_the_store() throws IOException {
 //       AddPetPojo addPetPojo = new AddPetPojo();
@@ -76,8 +77,11 @@ public class PetStepDefinition extends Utils {
     }
     @When("I run {string} with Post request")
     public void i_run_with_post_request(String string) throws FileNotFoundException {
+        apiResourceEnum = APIResourceEnum.valueOf(string); // this will call the constructor and assign the value
 
-        actualResponse =  requestSpecification.when().post("/pet")
+      //  actualResponse =  requestSpecification.when().post("/pet")
+        //Or we can call emun class method to get the assigned resource name
+        actualResponse =  requestSpecification.when().post(apiResourceEnum.getAPIResourceName())
                .then().log().all()
                 .spec(responseSpecification()).extract().response();
         //responseSpecification variable above is coming from utils class that we extended here

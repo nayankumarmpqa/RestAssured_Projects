@@ -23,6 +23,7 @@ import org.testng.Assert;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Objects;
 
 import static io.restassured.RestAssured.given;
 
@@ -30,6 +31,7 @@ public class PetStepDefinition extends Utils {
     Response actualResponse;
     PayloadDataCreation testData;
     APIResourceEnum apiResourceEnum;
+
     @Given("Pet object that needs to be added to the store")
     public void pet_object_that_needs_to_be_added_to_the_store() throws IOException {
 //       AddPetPojo addPetPojo = new AddPetPojo();
@@ -72,25 +74,33 @@ public class PetStepDefinition extends Utils {
 
         requestSpecification = given().
                 //spec(requestSpecification).body(addPetPojo); OR
-        spec(requestSpecification()).body(testData.addPetPayloadCreation());
+                        spec(requestSpecification()).body(testData.addPetPayloadCreation());
         //requestSpecification variable above is coming from utils class that we extended here
     }
-    @When("I run {string} with Post request")
-    public void i_run_with_post_request(String string) throws FileNotFoundException {
-        apiResourceEnum = APIResourceEnum.valueOf(string); // this will call the constructor and assign the value
 
-      //  actualResponse =  requestSpecification.when().post("/pet")
+    @When("I run {string} with {string} request")
+    public void i_run_with_post_request(String resourceNameFromFeatureFile, String httpMethod) throws FileNotFoundException {
+        apiResourceEnum = APIResourceEnum.valueOf(resourceNameFromFeatureFile); // this will call the constructor and assign the value
+        System.out.println(apiResourceEnum);
+
+
+        //  actualResponse =  requestSpecification.when().post("/pet")
         //Or we can call emun class method to get the assigned resource name
-        actualResponse =  requestSpecification.when().post(apiResourceEnum.getAPIResourceName())
-               .then().log().all()
-                .spec(responseSpecification()).extract().response();
-        //responseSpecification variable above is coming from utils class that we extended here
-
+        if (httpMethod.equalsIgnoreCase("Post")) {
+            actualResponse = requestSpecification.when().post(apiResourceEnum.getAPIResourceName());
+            //.then()
+            // .spec(responseSpecification()).extract().response();
+            //responseSpecification variable above is coming from utils class that we extended here
+        } else if (httpMethod.equalsIgnoreCase("Get")) {
+            actualResponse = requestSpecification.when().get(apiResourceEnum.getAPIResourceName());
+        }
     }
+
     @Then("The call is successful with status code {string}")
     public void the_call_is_successful_with_status_code(String string) {
-         Assert.assertEquals(actualResponse.getStatusCode(), 200);
+        Assert.assertEquals(actualResponse.getStatusCode(), 200);
     }
+
     @Then("The {string} in the response body is {string}")
     public void the_in_the_response_body_is(String string, String string2) {
         String resp = actualResponse.asString();

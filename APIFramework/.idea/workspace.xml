@@ -7,8 +7,9 @@
     <list default="true" id="3ea8dd13-b5f9-472b-8e7b-aa182a682648" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logFileOutputStream.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFileOutputStream.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/APIResourceEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/APIResourceEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/PetStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PetStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/WrapperClasses/WrapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/WrapperClasses/WrapperTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

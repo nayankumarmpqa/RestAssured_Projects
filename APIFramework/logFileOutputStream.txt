@@ -11,64 +11,6 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "id": 20,
-    "category": {
-        "id": 30,
-        "name": "catName"
-    },
-    "name": "Nayan",
-    "photoUrls": [
-        "photourl1"
-    ],
-    "tags": [
-        {
-            "id": 40,
-            "name": "Tag name"
-        }
-    ],
-    "status": "nkavailable"
-}
-HTTP/1.1 200 OK
-Date: Mon, 24 Apr 2023 12:31:18 GMT
-Content-Type: application/json
-Transfer-Encoding: chunked
-Connection: keep-alive
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-Server: Jetty(9.2.9.v20150224)
-
-{
-    "id": 20,
-    "category": {
-        "id": 30,
-        "name": "catName"
-    },
-    "name": "Nayan",
-    "photoUrls": [
-        "photourl1"
-    ],
-    "tags": [
-        {
-            "id": 40,
-            "name": "Tag name"
-        }
-    ],
-    "status": "nkavailable"
-}
-Request method:	POST
-Request URI:	https://petstore.swagger.io/v2/pet
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=application/json, application/javascript, text/javascript, text/json
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
     "id": 1,
     "category": {
         "id": 30,
@@ -87,7 +29,7 @@ Body:
     "status": "<status>"
 }
 HTTP/1.1 200 OK
-Date: Mon, 24 Apr 2023 12:31:20 GMT
+Date: Mon, 24 Apr 2023 17:55:46 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
@@ -114,25 +56,25 @@ Server: Jetty(9.2.9.v20150224)
     ],
     "status": "<status>"
 }
-Request method:	POST
-Request URI:	https://petstore.swagger.io/v2/pet
+Request method:	GET
+Request URI:	https://petstore.swagger.io/v2/pet/1
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
-Path params:	<none>
+Path params:	resourcePath=1
 Headers:		Accept=application/json, application/javascript, text/javascript, text/json
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "id": 2,
+    "id": 1,
     "category": {
         "id": 30,
         "name": "catName"
     },
-    "name": "nk2",
+    "name": "nk1",
     "photoUrls": [
         "photourl1"
     ],
@@ -145,22 +87,22 @@ Body:
     "status": "<status>"
 }
 HTTP/1.1 200 OK
-Date: Mon, 24 Apr 2023 12:31:22 GMT
+Date: Mon, 24 Apr 2023 17:55:48 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
-Connection: keep-alive
+Connection: close
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: GET, POST, DELETE, PUT
 Access-Control-Allow-Headers: Content-Type, api_key, Authorization
 Server: Jetty(9.2.9.v20150224)
 
 {
-    "id": 2,
+    "id": 1,
     "category": {
         "id": 30,
         "name": "catName"
     },
-    "name": "nk2",
+    "name": "nk1",
     "photoUrls": [
         "photourl1"
     ],

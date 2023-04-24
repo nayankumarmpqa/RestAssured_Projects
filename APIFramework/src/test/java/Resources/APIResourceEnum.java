@@ -1,8 +1,8 @@
 package Resources;
 
 public enum APIResourceEnum {
-    AddPetAPI("/pet");
-
+    AddPetAPI(""),
+    GetPetByIdAPI("");
     private String APIResourceEnumName;
 
     APIResourceEnum(String aPIResourceEnumNameFromStepDefMethod) {

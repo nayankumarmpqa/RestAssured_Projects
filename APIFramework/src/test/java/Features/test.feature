@@ -12,9 +12,10 @@ Feature: f1
     Given Pet object that needs to be added to the store with "<id>" "<name>" "<status>"
     When I run "AddPetAPI" with "Post" request
     Then The call is successful with status code "available"
+    And verify created petid using "GetPetByIdAPI"
 #    And The "<status>" in the response body is "<status>"
 #    And The "<id>" in the response body is "<id>"
     Examples:
       | id | name | status
-      | 01 | nk1  | status1
-      | 02 | nk2  | status2
+      | 01 | nk1  | abc
+    #  | 02 | nk2  | def

@@ -5,6 +5,8 @@ import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import org.hamcrest.Matchers;
@@ -51,5 +53,11 @@ public class Utils {
         FileInputStream fileInputStream = new FileInputStream("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\APIFramework\\src\\test\\java\\Resources\\Global.Properties");
         properties.load(fileInputStream);
         return properties.getProperty(key);
+    }
+
+    public String  getJsonPathKeyValue(Response response, String key){
+        String resp = response.asString();
+        JsonPath js = new JsonPath(resp);
+        return js.get(key).toString();
     }
 }

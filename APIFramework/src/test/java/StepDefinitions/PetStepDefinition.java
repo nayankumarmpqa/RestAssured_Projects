@@ -6,6 +6,7 @@ import PoJoClasses.Tag;
 import Resources.APIResourceEnum;
 import Resources.PayloadDataCreation;
 import Resources.Utils;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -88,11 +89,13 @@ public class PetStepDefinition extends Utils {
         //Or we can call emun class method to get the assigned resource name
         if (httpMethod.equalsIgnoreCase("Post")) {
             actualResponse = requestSpecification.when().post(apiResourceEnum.getAPIResourceName());
+            System.out.println(actualResponse.getStatusCode());
             //.then()
             // .spec(responseSpecification()).extract().response();
             //responseSpecification variable above is coming from utils class that we extended here
         } else if (httpMethod.equalsIgnoreCase("Get")) {
             actualResponse = requestSpecification.when().get(apiResourceEnum.getAPIResourceName());
+            System.out.println(actualResponse.getStatusCode());
         }
     }
 
@@ -100,6 +103,7 @@ public class PetStepDefinition extends Utils {
     public void the_call_is_successful_with_status_code(String string) {
         Assert.assertEquals(actualResponse.getStatusCode(), 200);
     }
+
 
     @Then("The {string} in the response body is {string}")
     public void the_in_the_response_body_is(String string, String string2) {
@@ -113,5 +117,21 @@ public class PetStepDefinition extends Utils {
         testData = new PayloadDataCreation();
         requestSpecification = given().
                 spec(requestSpecification()).body(testData.addPetPayloadCreation(arg0, arg1, arg2));
+    }
+
+    @Then("verify created petid using {string}")
+    public void verify_created_petid_using(String resourceNameFromFeatureFile) throws IOException {
+        String excpectedPetId = getJsonPathKeyValue(actualResponse, "id");
+        requestSpecification = given().spec(requestSpecification()).basePath("{resourcePath}")
+                .pathParam("resourcePath", excpectedPetId);
+        i_run_with_post_request(resourceNameFromFeatureFile, "Get");
+       String actualPetId = getJsonPathKeyValue(actualResponse, "id");
+        System.out.println("actualPetId = " + actualPetId );
+        System.out.println( "petId and actualPetId = " + excpectedPetId +" , " + actualPetId);
+
+
+        Assert.assertEquals(actualPetId, excpectedPetId);
+
+
     }
 }

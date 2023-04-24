@@ -6,10 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="3ea8dd13-b5f9-472b-8e7b-aa182a682648" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logFileOutputStream.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logFileOutputStream.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logFileOutputStream.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Features/test.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Resources/APIResourceEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/APIResourceEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Global.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/Global.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Resources/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Resources/Utils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/PetStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/PetStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/APIResourceEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/APIResourceEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Resources/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Resources/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinitions/PetStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinitions/PetStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Mar_PostRequests/Post_AddObject_Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Mar_PostRequests/Post_AddObject_Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Basics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Mar_PostRequests/Post_AddObject_Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Mar_PostRequests/Post_AddObject_Runner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Put_Requests/Put_MyPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Put_Requests/Put_MyPost.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +60,7 @@
       <recent name="PoJoClasses" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: test">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Add a new pet to the pet store with Examples">
     <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/Features/test.feature" />
@@ -127,9 +137,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Add a new pet to the pet store with Examples" />
         <item itemvalue="Cucumber Java.Feature: test" />
         <item itemvalue="Cucumber Java.Scenario: Add a new pet to the pet store" />
-        <item itemvalue="Cucumber Java.Scenario: Add a new pet to the pet store with Examples" />
         <item itemvalue="JUnit.TestRunner" />
       </list>
     </recent_temporary>

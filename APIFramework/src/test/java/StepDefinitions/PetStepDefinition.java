@@ -33,6 +33,8 @@ public class PetStepDefinition extends Utils {
     PayloadDataCreation testData;
     APIResourceEnum apiResourceEnum;
 
+    static String expectedPetId;
+
     @Given("Pet object that needs to be added to the store")
     public void pet_object_that_needs_to_be_added_to_the_store() throws IOException {
 //       AddPetPojo addPetPojo = new AddPetPojo();
@@ -80,7 +82,7 @@ public class PetStepDefinition extends Utils {
     }
 
     @When("I run {string} with {string} request")
-    public void i_run_with_post_request(String resourceNameFromFeatureFile, String httpMethod) throws FileNotFoundException {
+    public void i_run_with_post_request(String resourceNameFromFeatureFile, String httpMethod) throws IOException {
         apiResourceEnum = APIResourceEnum.valueOf(resourceNameFromFeatureFile); // this will call the constructor and assign the value
         System.out.println(apiResourceEnum);
 
@@ -94,14 +96,21 @@ public class PetStepDefinition extends Utils {
             // .spec(responseSpecification()).extract().response();
             //responseSpecification variable above is coming from utils class that we extended here
         } else if (httpMethod.equalsIgnoreCase("Get")) {
+            requestSpecification = given().
+                    spec(requestSpecification());
             actualResponse = requestSpecification.when().get(apiResourceEnum.getAPIResourceName());
+            System.out.println(actualResponse.getStatusCode());
+        }else if (httpMethod.equalsIgnoreCase("Delete")) {
+            requestSpecification = given().
+                    spec(requestSpecification());
+            actualResponse = requestSpecification.when().delete(apiResourceEnum.getAPIResourceName());
             System.out.println(actualResponse.getStatusCode());
         }
     }
 
-    @Then("The call is successful with status code {string}")
-    public void the_call_is_successful_with_status_code(String string) {
-        Assert.assertEquals(actualResponse.getStatusCode(), 200);
+    @Then("The call is successful with status code {int}")
+    public void the_call_is_successful_with_status_code(int successCode) {
+        Assert.assertEquals(actualResponse.getStatusCode(), successCode);
     }
 
 
@@ -121,17 +130,26 @@ public class PetStepDefinition extends Utils {
 
     @Then("verify created petid using {string}")
     public void verify_created_petid_using(String resourceNameFromFeatureFile) throws IOException {
-        String excpectedPetId = getJsonPathKeyValue(actualResponse, "id");
+         expectedPetId = getJsonPathKeyValue(actualResponse, "id");
         requestSpecification = given().spec(requestSpecification()).basePath("{resourcePath}")
-                .pathParam("resourcePath", excpectedPetId);
+                .pathParam("resourcePath", expectedPetId);
         i_run_with_post_request(resourceNameFromFeatureFile, "Get");
-       String actualPetId = getJsonPathKeyValue(actualResponse, "id");
-        System.out.println("actualPetId = " + actualPetId );
-        System.out.println( "petId and actualPetId = " + excpectedPetId +" , " + actualPetId);
+        String actualPetId = getJsonPathKeyValue(actualResponse, "id");
+        System.out.println("actualPetId = " + actualPetId);
+        System.out.println("petId and actualPetId = " + expectedPetId + " , " + actualPetId);
 
 
-        Assert.assertEquals(actualPetId, excpectedPetId);
+        Assert.assertEquals(actualPetId, expectedPetId);
+    }
 
+
+    @Given("Delete Pet payload object that is needed is ready")
+    public void delete_pet_payload_object_that_is_needed_is_ready() throws IOException {
+
+
+        requestSpecification = given().spec(requestSpecification()).header("api_key", "special-key").basePath("{resourcePath}")
+                .pathParam("resourcePath", expectedPetId);
 
     }
+
 }

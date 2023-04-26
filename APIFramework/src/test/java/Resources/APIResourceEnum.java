@@ -2,8 +2,10 @@ package Resources;
 
 public enum APIResourceEnum {
     AddPetAPI(""),
-    GetPetByIdAPI("");
+    GetPetByIdAPI(""),
+    DeletePetAPI("");
     private String APIResourceEnumName;
+
 
     APIResourceEnum(String aPIResourceEnumNameFromStepDefMethod) {
         this.APIResourceEnumName = aPIResourceEnumNameFromStepDefMethod;

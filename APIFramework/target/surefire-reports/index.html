@@ -145,7 +145,7 @@
   &lt;test junit=&quot;true&quot; thread-count=&quot;5&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Cucumber.Options.TestRunner&quot;/&gt;
-      &lt;class name=&quot;Cucumber.Options.TestRunner2&quot;/&gt;
+      &lt;class name=&quot;Cucumber.Options.TestRunnerNoReportingPlugin&quot;/&gt;
       &lt;class name=&quot;org.exampleGID.AppTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
@@ -190,12 +190,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testApp')
 data.setCell(0, 2, 'org.exampleGID.AppTest')
-data.setCell(0, 3, 3);
+data.setCell(0, 3, 4);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 ms</span>
+              <span class="suite-total-time">Total running time: 4 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->

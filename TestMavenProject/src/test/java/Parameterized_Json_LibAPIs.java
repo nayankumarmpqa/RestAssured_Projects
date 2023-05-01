@@ -8,7 +8,10 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 
 public class Parameterized_Json_LibAPIs {
-
+    @DataProvider(name = "myBooksDataProvider")
+    public Object[][] getDataMethod() {
+        return new Object[][]{{"nk1", "260111"}, {"nk2", "260112"}, {"nk3", "260113"}, {"nk4", "260114"}};
+    }
     @Test(dataProvider = "myBooksDataProvider")
     public void parameterizedJsonPayloadTest(String isbn, String isle) {
         RestAssured.baseURI = "http://216.10.245.166";
@@ -30,8 +33,5 @@ public class Parameterized_Json_LibAPIs {
     }
 
 
-    @DataProvider(name = "myBooksDataProvider")
-    public Object[][] getDataMethod() {
-        return new Object[][]{{"nk1", "260111"}, {"nk2", "260112"}, {"nk3", "260113"}, {"nk4", "260114"}};
-    }
+
 }

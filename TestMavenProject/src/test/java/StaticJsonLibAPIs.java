@@ -1,4 +1,3 @@
-import files.Payloads;
 import files.ReusableMethods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
@@ -16,7 +15,7 @@ public class StaticJsonLibAPIs {
         String addBookResponse =
                 given().log().all()
                         .header("Content-Type", "application/json")
-                        .body(generateStringFromResource("C:\\Users\\Hp\\Desktop\\AddBookJsonFile.json"))
+                        .body(generateStringFromResourceFilePath("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\TestMavenProject\\AddBookJsonFile.json"))
                         .when()
                         .post("Library/Addbook.php")
 
@@ -28,9 +27,18 @@ public class StaticJsonLibAPIs {
         String id = js.get("ID");
         System.out.println(id);
 
+        //Below is just an example for Files class readAllBytes method
+        System.out.println(new String(Files.readAllBytes(
+                Paths.get("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\TestMavenProject\\myfile.txt")
+        )));
+
     }
 
-    public static String generateStringFromResource(String path) throws IOException{
+    public static String generateStringFromResourceFilePath(String path) throws IOException{
+        // For understanding:
+            //Files.readAllBytes(Path path) // returns array of bytes[] from the file
+            // Paths.get(String path) // returns Path
+
         return new String(Files.readAllBytes(Paths.get(path)));
     }
 }

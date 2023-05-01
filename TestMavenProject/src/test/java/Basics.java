@@ -1,6 +1,7 @@
 import files.ReusableMethods;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import org.testng.Assert;
 
 import static io.restassured.RestAssured.*;
@@ -77,6 +78,22 @@ public class Basics {
         String actualAddress = getApiJsonObject.getString("address");
 
         Assert.assertEquals(newAddress, actualAddress);
+
+
+
+        Response getApiresponse2 = given().log().all()
+                .queryParam("key", "qaclick123")
+                .queryParam("place_id", addedPlace_id)
+
+                .when()
+                .get("/maps/api/place/get/json");
+        System.out.println(getApiresponse2.toString());
+        System.out.println("**********************");
+        System.out.println(getApiresponse2.statusCode());
+        System.out.println(getApiresponse2.asString());
+
+
+
 
     }
 

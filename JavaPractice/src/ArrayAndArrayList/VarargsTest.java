@@ -10,10 +10,11 @@ public class VarargsTest {
 
     static int sumArray(int... marks) {
         int sum = 0;
-        for (int mark : marks) {
-            sum = sum + mark;
+        for (int values : marks) {
+            sum = sum + values;
         }
         sum(marks);
+        System.out.println(sum);
         return sum;
     }
 

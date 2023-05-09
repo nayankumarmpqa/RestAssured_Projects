@@ -6,6 +6,10 @@ class TestBase {
     void testBasef1() {
         System.out.println("f1 in base class");
     }
+
+    void tb2(){
+        System.out.println("tb2");
+    }
 }
 
 public class Test extends TestBase {
@@ -19,6 +23,7 @@ public class Test extends TestBase {
         TestBase tb = new Test();
         System.out.println(tb.a);
         tb.testBasef1();
+        tb.tb2();
 
         System.out.println("------------------");
         Test test = new Test();

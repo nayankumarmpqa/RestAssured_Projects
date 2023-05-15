@@ -1,39 +1,39 @@
-Page url is : https://whistle-staging.myshopify.com/
-Page Title is : 
+Page url is : https://whistle.com/
+Page Title is : Whistle GPS Pet Tracker and Activity Monitor for Pets | Whistle Store
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Shop Health - https://whistle-staging.myshopify.com/products/whistle-health-limited-edition
-Shop GPS - https://whistle-staging.myshopify.com/products/whistle-health-gps-dog-tracker-activity-monitor
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-limited-edition?variant=40282034602045
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-gps-dog-tracker-activity-monitor?variant=39393007239229
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39393003175997
-See More Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Learn More - https://whistle-staging.myshopify.com/pages/pet-insight-new
-Why is My Dog Excessively Licking Their Paws? - https://whistle-staging.myshopify.com/blogs/the-wildest/why-is-my-dog-excessively-licking-their-paws
-Read More - https://whistle-staging.myshopify.com/blogs/the-wildest/why-is-my-dog-excessively-licking-their-paws
-Help: My Puppy Isn’t Eating - https://whistle-staging.myshopify.com/blogs/all-posts/help-my-puppy-isn-t-eating
-Read More - https://whistle-staging.myshopify.com/blogs/all-posts/help-my-puppy-isn-t-eating
-Whistle App Update: New Journaling Features - https://whistle-staging.myshopify.com/blogs/news/whistle-app-update-new-journaling-features
-Read More - https://whistle-staging.myshopify.com/blogs/news/whistle-app-update-new-journaling-features
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Shop Health - https://www.whistle.com/products/whistle-health-smart-device
+Shop GPS - https://www.whistle.com/products/whistle-health-gps-dog-tracker-activity-monitor
+Shop Now - https://www.whistle.com/products/whistle-health-smart-device?variant=40614356549680
+Shop Now - https://www.whistle.com/products/whistle-health-gps-dog-tracker-activity-monitor?variant=28982569697328
+Shop Now - https://www.whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39481877168176
+See More Reviews - https://www.whistle.com/pages/reviews-v3
+Learn More - https://www.whistle.com/pages/pet-insight-project
+Do I need pet insurance? - https://www.whistle.com/blogs/dogs-love-whistle/do-i-need-pet-insurance
+Read More - https://www.whistle.com/blogs/dogs-love-whistle/do-i-need-pet-insurance
+5 Tips for Caring for a Senior Dog - https://www.whistle.com/blogs/dogs-love-whistle/whistle-app-update-new-journaling-features
+Read More - https://www.whistle.com/blogs/dogs-love-whistle/whistle-app-update-new-journaling-features
+Vet Series: Seasonal Scratching - https://www.whistle.com/blogs/vet-insights/vet-series-seasonal-scratching
+Read More - https://www.whistle.com/blogs/vet-insights/vet-series-seasonal-scratching
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Refer a Friend, Get $50! - https://www.whistle.com/#
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -41,32 +41,32 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/app
-Page Title is : Whistle App for Smart Devices and GPS Dog Trackers - Whistle – whistle-staging
+Page url is : https://whistle.com/pages/app
+Page Title is : Whistle App for Smart Devices and GPS Dog Trackers - Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Learn More - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Learn More - https://www.whistle.com/pages/pet-insight-project
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -74,31 +74,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/learn
-Page Title is : Learn – whistle-staging
+Page url is : https://whistle.com/pages/learn
+Page Title is : Learn – Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -106,64 +106,32 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/for-business-v3
-Page Title is : For business v3 – whistle-staging
+Page url is : https://whistle.com/pages/pet-insight-new
+Page Title is : Pet Insight Project – Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-privacy statement - https://www.mars.com/privacy
-Call us - tel:+18559990471
-Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
-Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
-Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
-Terms of service - https://whistle-staging.myshopify.com/pages/legal
-Privacy Statement - https://www.mars.com/privacy
-Cookie Notice - https://www.mars.com/cookies-english
-Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-slavery-act
-Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
-AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
-Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
-Privacy policy - https://www.mars.com/privacy
-Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/pet-insight-new
-Page Title is : Pet Insight New – whistle-staging
---------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 Get in Touch - https://whistle.typeform.com/to/Y9FTFO82?typeform-source=www.petinsight.com
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -171,33 +139,32 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/about-contact
-Page Title is : About Contact – whistle-staging
+Page url is : https://whistle.com/pages/about-contact
+Page Title is : About Contact – Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/pages/about-contact#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -205,32 +172,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/products/whistle-health-limited-edition
-Page Title is : Whistle™ Health Dog Tracker & Activity Monitor - Whistle – whistle-staging
+Page url is : https://whistle.com/products/whistle-health-limited-edition
+Page Title is : Whistle™ Health Dog Tracker & Activity Monitor - Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/products/whistle-health-limited-edition#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -238,32 +204,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/products/whistle-health-gps-dog-tracker-activity-monitor
-Page Title is : Whistle™ Dog GPS Tracker & Dog Fitness Tracker - Whistle – whistle-staging
+Page url is : https://whistle.com/products/whistle-health-gps-dog-tracker-activity-monitor
+Page Title is : Whistle™ Dog GPS Tracker & Dog Fitness Tracker - Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Open Okendo Reviews in a new window - https://okendo.io/?utm_source=dfeb747a-3678-497c-b952-88afc5ca5270&utm_medium=widget&utm_campaign=poweredby
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -271,32 +236,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor
-Page Title is : Whistle Health & GPS+ Pet Health Tracker & Activity Monitor – whistle-staging
+Page url is : https://whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor
+Page Title is : Whistle Health & GPS+ Pet Health Tracker & Activity Monitor
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Open Okendo Reviews in a new window - https://okendo.io/?utm_source=dfeb747a-3678-497c-b952-88afc5ca5270&utm_medium=widget&utm_campaign=poweredby
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -304,33 +268,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277658173
-Page Title is : Dog Leash – whistle-staging
+Page url is : https://www.whistle.com/products/seeing-stripes-dog-collar?variant=40265779609648
+Page Title is : Seeing Stripes Dog Collar | Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Open Okendo Reviews in a new window - https://okendo.io/?utm_source=dfeb747a-3678-497c-b952-88afc5ca5270&utm_medium=widget&utm_campaign=poweredby
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277658173#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -338,33 +300,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277690941
-Page Title is : Dog Leash – whistle-staging
+Page url is : https://www.whistle.com/products/whistle-dog-leash-1?variant=40836380721200
+Page Title is : Dog Leash - Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Open Okendo Reviews in a new window - https://okendo.io/?utm_source=dfeb747a-3678-497c-b952-88afc5ca5270&utm_medium=widget&utm_campaign=poweredby
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277690941#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -372,34 +332,32 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/products/whistle-health-limited-edition-attachment?variant=40380284272701
-Page Title is : Whistle™ Health Limited Edition Collar Attachment - Whistle – whistle-staging
+Page url is : https://whistle.com/products/whistle-health-limited-edition-attachment?variant=40380284272701
+Page Title is : Whistle™ Health Limited Edition Collar Attachment - Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 Whistle™ Health Limited Edition - https://whistle-staging.myshopify.com/products/whistle-health-limited-edition
-Open Okendo Reviews in a new window - https://okendo.io/?utm_source=dfeb747a-3678-497c-b952-88afc5ca5270&utm_medium=widget&utm_campaign=poweredby
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/products/whistle-health-limited-edition-attachment?variant=40380284272701#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -407,35 +365,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/products/summer-sunset-leash?variant=39393005535293
-Page Title is : 404 Not Found – whistle-staging
+Page url is : https://www.whistle.com/products/whistle-dog-leash-1?variant=40836380786736
+Page Title is : Dog Leash - Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Homepage - https://whistle-staging.myshopify.com/
-Smart Devices - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-Whistle App - https://whistle-staging.myshopify.com/pages/app
-other Mars Petcare brands - https://www.mars.com/made-by-mars/petcare
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -443,40 +397,41 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-Page Title is : Whistle Smart devices – whistle-staging
+Page url is : https://whistle.com/collections/whistle-360-pet-monitoring
+Page Title is : Whistle Smart devices
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-limited-edition
-All - https://whistle-staging.myshopify.com/collections/all#all
-Smart devices - https://whistle-staging.myshopify.com/collections/all#smart-devices
-Cases - https://whistle-staging.myshopify.com/collections/all#attachments
-Leashes and Collars - https://whistle-staging.myshopify.com/collections/all#whistle-collars-and-leashes
-Accessories - https://whistle-staging.myshopify.com/collections/all#batteries-and-attachments
-Shop now - https://whistle-staging.myshopify.com/products/whistle-health-limited-edition?variant=40282034602045
-Shop now - https://whistle-staging.myshopify.com/products/whistle-health-gps-dog-tracker-activity-monitor?variant=39393007239229
-Shop now - https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39393003175997
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Shop Now - https://www.whistle.com/products/whistle-health-smart-device
+All - https://www.whistle.com/collections/all#all
+Smart devices - https://www.whistle.com/collections/all#smart-devices
+Cases - https://www.whistle.com/collections/all#attachments
+Leashes and Collars - https://www.whistle.com/collections/all#whistle-collars-and-leashes
+Accessories - https://www.whistle.com/collections/all#batteries-and-attachments
+Shop now - https://www.whistle.com/products/whistle-health-smart-device?variant=40614356549680
+Shop now - https://www.whistle.com/products/whistle-health-gps-dog-tracker-activity-monitor?variant=28982569697328
+Shop now - https://www.whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39481877168176
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Refer a Friend, Get $50! - https://www.whistle.com/collections/all#
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -484,33 +439,34 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/allergies-v3
-Page Title is : Allergies v3 – whistle-staging
+Page url is : https://www.whistle.com/pages/allergies
+Page Title is : Allergies – Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Shop smart devices - https://whistle-staging.myshopify.com/collections/all
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39393003175997
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Shop smart devices - https://www.whistle.com/collections/all
+Shop Now - https://www.whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39481877168176
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Refer a Friend, Get $50! - https://www.whistle.com/pages/allergies#
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -518,34 +474,34 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/overweight-v3
-Page Title is : Overweight v3 – whistle-staging
+Page url is : https://www.whistle.com/pages/senior-dogs
+Page Title is : Senior – Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Shop smart devices - https://whistle-staging.myshopify.com/collections/all
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39393003175997
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Shop smart devices - https://www.whistle.com/collections/all
+Shop Now - https://www.whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39481877168176
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/pages/overweight-v3#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Refer a Friend, Get $50! - https://www.whistle.com/pages/senior-dogs#
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -553,73 +509,38 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/old-age-v3
-Page Title is : Old age v3 – whistle-staging
+Page url is : https://whistle.com/pages/in-the-press
+Page Title is : Whistle In The Press
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Shop smart devices - https://whistle-staging.myshopify.com/collections/all
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39393003175997
-privacy statement - https://www.mars.com/privacy
-Call us - tel:+18559990471
-Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
-Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
-Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
-Terms of service - https://whistle-staging.myshopify.com/pages/legal
-Privacy Statement - https://www.mars.com/privacy
-Cookie Notice - https://www.mars.com/cookies-english
-Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-slavery-act
-Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
-AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
-Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
-Privacy policy - https://www.mars.com/privacy
-Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/in-the-press
-Page Title is : Whistle In The Press – whistle-staging
---------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Connect With Us - https://whistle-staging.myshopify.com/pages/contact-us
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Connect With Us - https://www.whistle.com/pages/contact-us
 Pet Wearables Are a Thing Now. Meet the Company... - https://www.forbes.com/sites/brandonschultz/2019/10/20/the-best-gps-trackers-for-pets/?sh=54b56ad2683e
 Whistle's devices help keep dogs in optimal health - https://www.inc.com/cameron-albert-deitch/whistle-pet-wearables-best-industries-2020.html
 Pet Wearables Are a Thing Now. Meet the Company... - 
 9 Items Every Tech-Savvy Dog Parent Must Have - https://www.thedodo.com/dodo-picks/must-have-tech-products-for-every-dog-parent
-Whistle Go Explore impressions: A smarter tracker - https://www.digitaltrends.com/wearables/whistle-go-explore-impressions/
 Whistle Introduces a Limited Edition Smart Device - https://hypebeast.com/2022/11/whistle-introduces-limited-edition-pet-smart-device
+The Best GPS Dog Collars and Pet Trackers - https://www.nytimes.com/wirecutter/reviews/best-gps-pet-trackers/
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/pages/in-the-press#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -627,35 +548,33 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/reviews-v3
-Page Title is : Reviews V3 – whistle-staging
+Page url is : https://whistle.com/pages/reviews
+Page Title is : Whistle Product Reviews
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
-Shop smart devices - https://whistle-staging.myshopify.com/collections/smart-devices
-Open Okendo Reviews in a new window - https://okendo.io/?utm_source=dfeb747a-3678-497c-b952-88afc5ca5270&utm_medium=widget&utm_campaign=poweredby
-Shop Now - https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39393003175997
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Shop smart devices - https://www.whistle.com/collections/smart-devices
+Shop Now - https://www.whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39481877168176
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://whistle-staging.myshopify.com/pages/reviews-v3#
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -663,31 +582,31 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility
-Page url is : https://whistle-staging.myshopify.com/pages/faq-v3
-Page Title is : FAQ V3 – whistle-staging
+Page url is : https://whistle.com/pages/faq
+Page Title is : FAQ – Whistle
 --------------------------------------------------------------------------
-Your pet’s best life is about to begin - https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring
-App - https://whistle-staging.myshopify.com/pages/app
-Reviews - https://whistle-staging.myshopify.com/pages/reviews-v3
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-Shop - https://whistle-staging.myshopify.com/collections/whistle-3-accessories
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
 privacy statement - https://www.mars.com/privacy
 Call us - tel:+18559990471
 Email us - mailto:support@whistle.com
-About us - https://whistle-staging.myshopify.com/pages/about-contact
-Press - https://whistle-staging.myshopify.com/pages/in-the-press
-Blog - https://whistle-staging.myshopify.com/blogs/all-posts
-FAQ - https://whistle-staging.myshopify.com/pages/faq-v3
-Contact us - https://whistle-staging.myshopify.com/pages/contact-us
-Refund policy - https://whistle-staging.myshopify.com/pages/legal
-Device Limited Warranty - https://whistle-staging.myshopify.com/pages/device-limited-warranty
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Pet Insight Project - https://whistle-staging.myshopify.com/pages/pet-insight-new
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
-Affiliates - https://whistle-staging.myshopify.com/pages/affiliate
+Affiliates - https://www.whistle.com/pages/affiliate
 Terms of service - https://whistle-staging.myshopify.com/pages/legal
 Privacy Statement - https://www.mars.com/privacy
 Cookie Notice - https://www.mars.com/cookies-english
@@ -695,6 +614,6 @@ Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-sl
 Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
 AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
 Accessibility - javascript:;
-Terms & Conditions - https://whistle-staging.myshopify.com/pages/legal
+Terms & Conditions - https://www.whistle.com/pages/legal
 Privacy policy - https://www.mars.com/privacy
 Accessibility - https://www.mars.com/accessibility

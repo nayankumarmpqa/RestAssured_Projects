@@ -16,27 +16,50 @@ public class Test {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hp\\Documents\\IntelliJ Projects\\AIDSeleniumProj\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 
+//        String[] urls = {
+//                "https://whistle-staging.myshopify.com/",
+//                "https://whistle-staging.myshopify.com/pages/app",
+//                "https://whistle-staging.myshopify.com/pages/learn",
+//                "https://whistle-staging.myshopify.com/pages/for-business-v3",
+//                "https://whistle-staging.myshopify.com/pages/pet-insight-new",
+//                "https://whistle-staging.myshopify.com/pages/about-contact",
+//                "https://whistle-staging.myshopify.com/products/whistle-health-limited-edition",
+//                "https://whistle-staging.myshopify.com/products/whistle-health-gps-dog-tracker-activity-monitor",
+//                "https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor",
+//                "https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277658173",
+//                "https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277690941",
+//                "https://whistle-staging.myshopify.com/products/whistle-health-limited-edition-attachment?variant=40380284272701",
+//                "https://whistle-staging.myshopify.com/products/summer-sunset-leash?variant=39393005535293",
+//                "https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring",
+//                "https://whistle-staging.myshopify.com/pages/allergies-v3",
+//                "https://whistle-staging.myshopify.com/pages/overweight-v3",
+//                "https://whistle-staging.myshopify.com/pages/old-age-v3",
+//                "https://whistle-staging.myshopify.com/pages/in-the-press",
+//                "https://whistle-staging.myshopify.com/pages/reviews-v3",
+//                "https://whistle-staging.myshopify.com/pages/faq-v3"
+//        };
+
+
         String[] urls = {
-                "https://whistle-staging.myshopify.com/",
-                "https://whistle-staging.myshopify.com/pages/app",
-                "https://whistle-staging.myshopify.com/pages/learn",
-                "https://whistle-staging.myshopify.com/pages/for-business-v3",
-                "https://whistle-staging.myshopify.com/pages/pet-insight-new",
-                "https://whistle-staging.myshopify.com/pages/about-contact",
-                "https://whistle-staging.myshopify.com/products/whistle-health-limited-edition",
-                "https://whistle-staging.myshopify.com/products/whistle-health-gps-dog-tracker-activity-monitor",
-                "https://whistle-staging.myshopify.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor",
-                "https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277658173",
-                "https://whistle-staging.myshopify.com/products/dog-leash?variant=40615277690941",
-                "https://whistle-staging.myshopify.com/products/whistle-health-limited-edition-attachment?variant=40380284272701",
-                "https://whistle-staging.myshopify.com/products/summer-sunset-leash?variant=39393005535293",
-                "https://whistle-staging.myshopify.com/collections/whistle-360-pet-monitoring",
-                "https://whistle-staging.myshopify.com/pages/allergies-v3",
-                "https://whistle-staging.myshopify.com/pages/overweight-v3",
-                "https://whistle-staging.myshopify.com/pages/old-age-v3",
-                "https://whistle-staging.myshopify.com/pages/in-the-press",
-                "https://whistle-staging.myshopify.com/pages/reviews-v3",
-                "https://whistle-staging.myshopify.com/pages/faq-v3"
+                "https://whistle.com/",
+                "https://whistle.com/pages/app",
+                "https://whistle.com/pages/learn",
+               // "https://whistle.com/pages/for-business-v3",  it is not live
+                "https://whistle.com/pages/pet-insight-new",
+                "https://whistle.com/pages/about-contact",
+                "https://whistle.com/products/whistle-health-limited-edition",
+                "https://whistle.com/products/whistle-health-gps-dog-tracker-activity-monitor",
+                "https://whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor",
+                "https://www.whistle.com/products/seeing-stripes-dog-collar?variant=40265779609648",
+                "https://www.whistle.com/products/whistle-dog-leash-1?variant=40836380721200",
+                "https://whistle.com/products/whistle-health-limited-edition-attachment?variant=40380284272701",
+                "https://www.whistle.com/products/whistle-dog-leash-1?variant=40836380786736",
+                "https://whistle.com/collections/whistle-360-pet-monitoring",
+                "https://www.whistle.com/pages/allergies",
+                "https://www.whistle.com/pages/senior-dogs",
+                "https://whistle.com/pages/in-the-press",
+                "https://whistle.com/pages/reviews",
+                "https://whistle.com/pages/faq"
         };
 
         for (String url : urls) {

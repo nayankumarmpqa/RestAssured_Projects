@@ -59,7 +59,8 @@ public class Test {
                 "https://www.whistle.com/pages/senior-dogs",
                 "https://whistle.com/pages/in-the-press",
                 "https://whistle.com/pages/reviews",
-                "https://whistle.com/pages/faq"
+                "https://whistle.com/pages/faq",
+                "https://www.whistle.com/pages/compare-model"
         };
 
         for (String url : urls) {

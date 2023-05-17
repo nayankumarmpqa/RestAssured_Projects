@@ -11,7 +11,7 @@ Shop GPS - https://www.whistle.com/products/whistle-health-gps-dog-tracker-activ
 Shop Now - https://www.whistle.com/products/whistle-health-smart-device?variant=40614356549680
 Shop Now - https://www.whistle.com/products/whistle-health-gps-dog-tracker-activity-monitor?variant=28982569697328
 Shop Now - https://www.whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor?variant=39481877168176
-See More Reviews - https://www.whistle.com/pages/reviews-v3
+See More Reviews - https://www.whistle.com/pages/reviews
 Learn More - https://www.whistle.com/pages/pet-insight-project
 Do I need pet insurance? - https://www.whistle.com/blogs/dogs-love-whistle/do-i-need-pet-insurance
 Read More - https://www.whistle.com/blogs/dogs-love-whistle/do-i-need-pet-insurance
@@ -30,7 +30,6 @@ Contact us - https://www.whistle.com/pages/contact-us
 Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
 Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://www.whistle.com/#
 Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
 Affiliates - https://www.whistle.com/pages/affiliate
@@ -64,6 +63,7 @@ Contact us - https://www.whistle.com/pages/contact-us
 Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
 Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
+Refer a Friend, Get $50! - https://www.whistle.com/pages/app#
 Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
 Affiliates - https://www.whistle.com/pages/affiliate
@@ -129,6 +129,7 @@ Contact us - https://www.whistle.com/pages/contact-us
 Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
 Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
+Refer a Friend, Get $50! - https://www.whistle.com/pages/pet-insight-project#
 Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
 Affiliates - https://www.whistle.com/pages/affiliate
@@ -428,7 +429,6 @@ Contact us - https://www.whistle.com/pages/contact-us
 Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
 Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://www.whistle.com/collections/all#
 Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
 Affiliates - https://www.whistle.com/pages/affiliate
@@ -463,7 +463,6 @@ Contact us - https://www.whistle.com/pages/contact-us
 Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
 Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
-Refer a Friend, Get $50! - https://www.whistle.com/pages/allergies#
 Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
 Affiliates - https://www.whistle.com/pages/affiliate
@@ -538,6 +537,7 @@ Contact us - https://www.whistle.com/pages/contact-us
 Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
 Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
+Refer a Friend, Get $50! - https://www.whistle.com/pages/in-the-press#
 Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
 Affiliates - https://www.whistle.com/pages/affiliate
@@ -604,6 +604,43 @@ Contact us - https://www.whistle.com/pages/contact-us
 Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
 Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
 Accessibility - https://www.mars.com/accessibility
+Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
+Careers - https://kinship.co/careers/
+Affiliates - https://www.whistle.com/pages/affiliate
+Terms of service - https://whistle-staging.myshopify.com/pages/legal
+Privacy Statement - https://www.mars.com/privacy
+Cookie Notice - https://www.mars.com/cookies-english
+Modern Slavery Act - https://www.mars.com/about/policies-and-practices/modern-slavery-act
+Your Privacy Choices - https://privacyportal-eu.onetrust.com/webform/5f2759ff-9efe-412c-a3be-f13092d2c945/98373dac-6247-48a6-a190-f0094af43ee8
+AdChoices - https://www.mars.com/mars-incorporated-adchoices-united-states
+Accessibility - javascript:;
+Terms & Conditions - https://www.whistle.com/pages/legal
+Privacy policy - https://www.mars.com/privacy
+Accessibility - https://www.mars.com/accessibility
+Page url is : https://www.whistle.com/pages/compare-model
+Page Title is : Which Whistle is Right For You? Compare Smart Devices | Whistle
+--------------------------------------------------------------------------
+Your pet’s best life is about to begin - https://www.whistle.com/collections/all
+App - https://www.whistle.com/pages/app
+Reviews - https://www.whistle.com/pages/reviews
+Blog - https://www.whistle.com/blogs/all-posts
+Shop - https://www.whistle.com/collections/whistle-360-pet-monitoring
+Shop Now - https://www.whistle.com/products/whistle-health-smart-device
+Shop Now - https://www.whistle.com/products/whistle-health-gps-dog-tracker-activity-monitor
+Shop Now - https://www.whistle.com/products/whistle-health-gps-plus-dog-tracker-activity-monitor
+Contact us - https://www.whistle.com/pages/contact-us
+privacy statement - https://www.mars.com/privacy
+Call us - tel:+18559990471
+Email us - mailto:support@whistle.com
+About us - https://www.whistle.com/pages/about-us
+Press - https://www.whistle.com/pages/in-the-press
+Blog - https://www.whistle.com/blogs/all-posts
+FAQ - https://www.whistle.com/pages/faq
+Contact us - https://www.whistle.com/pages/contact-us
+Refund policy - https://support.whistle.com/en_us/what-is-whistle's-return-policy-SkuezDyYL?_gl=1*1xihbp4*_ga*MTExNDYyNDI4MC4xNjgzOTA3MTk2*_ga_1HP1RQMW6C*MTY4MzkwNzE5OS4xLjEuMTY4MzkwNzY3Mi4wLjAuMA..
+Device Limited Warranty - https://www.whistle.com/pages/device-limited-warranty
+Accessibility - https://www.mars.com/accessibility
+Refer a Friend, Get $50! - https://www.whistle.com/pages/compare-model#
 Pet Insight Project - https://www.whistle.com/pages/pet-insight-project
 Careers - https://kinship.co/careers/
 Affiliates - https://www.whistle.com/pages/affiliate

@@ -2,6 +2,10 @@ package InheritanceConcepts;
 
 public class Person
 {
+    private String name;
+    private String phone;
+    private String email;
+
     public String getName() {
         return name;
     }
@@ -26,9 +30,7 @@ public class Person
         this.email = email;
     }
 
-    private String name;
-    private String phone;
-    private String email;
+
 
 
     @Override

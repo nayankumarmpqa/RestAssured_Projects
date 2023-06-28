@@ -1,6 +1,9 @@
 package OrientedPtograms;
 
 public class Address {
+    private String line1;
+    private String zip;
+    private String city;
 
     public String getLine1() {
         return line1;
@@ -25,12 +28,6 @@ public class Address {
     public void setCity(String city) {
         this.city = city;
     }
-
-    private String line1;
-    private String zip;
-    private String city;
-
-
     public Address(String line1, String city, String zip){
         this.line1= line1;
         this.city=city;

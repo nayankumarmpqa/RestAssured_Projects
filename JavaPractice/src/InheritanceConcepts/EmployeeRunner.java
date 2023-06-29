@@ -18,7 +18,7 @@ public class EmployeeRunner {
     employee.setTitle("QA");
     employee.setEmployerName("MS");
     employee.setEmployeeGrade('A');
-    employee.setSalary(BigDecimal.valueOf(500000));
+    employee.setSalary(BigDecimal.valueOf(6000000));
         System.out.println("--------------------------");
         System.out.println(employee);
 

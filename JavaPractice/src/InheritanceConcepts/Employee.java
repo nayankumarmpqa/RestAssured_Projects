@@ -3,6 +3,9 @@ package InheritanceConcepts;
 import java.math.BigDecimal;
 
 public class Employee extends Person{
+    private String employerName;
+    private char employeeGrade;
+    private BigDecimal Salary;
 
     private String title;
 
@@ -35,14 +38,8 @@ public class Employee extends Person{
     }
 
     public void setSalary(BigDecimal salary) {
-        Salary = salary;
+        this.Salary = salary;
     }
-
-    private String employerName;
-    private char employeeGrade;
-    private BigDecimal Salary;
-
-
     @Override
     public String toString() {
         //super.toString() will call the super class toString method

@@ -26,4 +26,9 @@ public class CurryRecipe extends AbstractRecipe{
     public CurryRecipe() {
         System.out.println("[Curry Preparation Method]");
     }
+
+    public void curryRecipe2() {
+        System.out.println("[Testing child method in Curry Preparation class]");
+    }
+
 }

@@ -29,13 +29,13 @@ public class Test extends TestBase {
         Test test = new Test();
         System.out.println(test.a);
         test.testBasef1();
-
+        test.tb2();
 
         System.out.println("------------------");
         TestBase tb2 = new TestBase();
         System.out.println(tb2.a);
         tb2.testBasef1();
-
+        tb2.tb2();
 
 
     }

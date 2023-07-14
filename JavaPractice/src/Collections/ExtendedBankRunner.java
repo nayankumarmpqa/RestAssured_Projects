@@ -1,7 +1,7 @@
 package Collections;
 
 class BaseBank {
-        void concreteMethod() {
+    void concreteMethod() {
         System.out.println("concrete method in Base class");
     }
 
@@ -14,7 +14,10 @@ class SBI3 extends BaseBank {
     public void concreteMethod() {
         System.out.println("overridden concrete method");
     }
-    public String childClassMethod() {        return "Child class method";    }
+
+    public String childClassMethod() {
+        return "Child class method";
+    }
 }
 
 class ExtendedBankRunner {

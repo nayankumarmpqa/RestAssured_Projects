@@ -8,7 +8,7 @@ class TestBase {
     }
 
     void tb2(){
-        System.out.println("tb2");
+        System.out.println("tb2 from base class");
     }
 }
 
@@ -24,12 +24,22 @@ public class Test extends TestBase {
         System.out.println(tb.a);
         tb.testBasef1();
         tb.tb2();
-
+/*
+10
+f1 in child class
+tb2 from base class
+ */
         System.out.println("------------------");
         Test test = new Test();
         System.out.println(test.a);
         test.testBasef1();
         test.tb2();
+
+        /*
+20
+f1 in child class
+tb2 from base class
+         */
 
         System.out.println("------------------");
         TestBase tb2 = new TestBase();
@@ -37,8 +47,10 @@ public class Test extends TestBase {
         tb2.testBasef1();
         tb2.tb2();
 
-
+/*
+10
+f1 in base class
+tb2 from base class
+ */
     }
 }
-
-

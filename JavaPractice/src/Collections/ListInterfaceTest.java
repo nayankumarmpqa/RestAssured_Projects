@@ -1,9 +1,6 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class ListInterfaceTest {
 
@@ -26,13 +23,13 @@ public class ListInterfaceTest {
         System.out.println("*****************");
 
         for (String s : sal) {
-            System.out.print(" "+s);
+            System.out.print(" " + s);
         }
-        System.out.println("\n"+"*****************");
+        System.out.println("\n" + "*****************");
         Iterator<String> it = sal.iterator();
 
-        while (it.hasNext()){
-            System.out.print(" "+it.next());
+        while (it.hasNext()) {
+            System.out.print(" " + it.next());
         }
 
 
@@ -44,21 +41,61 @@ public class ListInterfaceTest {
         ll.add(null);
         ll.add("test");
         ll.add(null);
-        System.out.println("\n"+"*****************");
+        System.out.println("\n" + "*****************");
 
         System.out.println(ll);
 
         System.out.println("***************************");
 
         //OR we can use for each loop
-        for(String item:ll){
-            System.out.print(" "+item);
+        for (String item : ll) {
+            System.out.print(" " + item);
         }
         //or we can use Iterator
-        System.out.println("\n"+"***************************");
+        System.out.println("\n" + "***************************");
         Iterator<String> itr = ll.iterator();
-        while(itr.hasNext()){
-            System.out.print(" "+itr.next());
+        while (itr.hasNext()) {
+            System.out.print(" " + itr.next());
         }
+
+
+        //********************************
+        System.out.println("\n" + "***************************");
+
+        Vector<String> vc = new Vector<>();
+        vc.add("Ravi");
+        vc.add("Vijay");
+        vc.add("Ravi");
+        vc.add("Ajay");
+        vc.add(null);
+        vc.add("test");
+        vc.add(null);
+
+        System.out.println(vc);
+
+
+        Iterator<String> it2 = vc.iterator(); //[Ravi, Vijay, Ravi, Ajay, null, test, null]
+        it2.next(); //It returns the element and moves the cursor pointer to the next element.
+        it2.next(); //It returns the element and moves the cursor pointer to the next element.
+        it2.remove(); //It removes the last elements returned by the iterator. i.e. Vijay
+        System.out.println(vc);         //[Ravi, Ravi, Ajay, null, test, null]
+
+        //********************************
+        System.out.println("\n" + "***************************");
+
+        Stack<String> st = new Stack<>(); //Stack implements the last-in-first-out data structure
+        st.add("sRavi");
+        st.add("sVijay");
+        st.add("sRavi");
+        st.add("sAjay");
+        st.add(null);
+        st.add("stest");
+        st.add(null);
+        st.push("pushmethod");
+        System.out.println(st);
+        st.pop(); //It implements the last-in-first-out data structure
+
+        System.out.println(st);
+
     }
 }

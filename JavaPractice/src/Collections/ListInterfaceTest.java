@@ -32,6 +32,8 @@ public class ListInterfaceTest {
             System.out.print(" " + it.next());
         }
 
+        sal.get(1);
+        sal.getClass();
 
         LinkedList<String> ll = new LinkedList<>();
         ll.add("Ravi");
@@ -43,7 +45,11 @@ public class ListInterfaceTest {
         ll.add(null);
         System.out.println("\n" + "*****************");
 
-        System.out.println(ll);
+        System.out.println("Linked List " + ll);
+        System.out.println(ll.get(1));
+        System.out.println(ll.getFirst());
+        System.out.println(ll.getLast());
+        System.out.println(ll.getClass());
 
         System.out.println("***************************");
 
@@ -95,7 +101,9 @@ public class ListInterfaceTest {
         System.out.println(st);
         st.pop(); //It implements the last-in-first-out data structure
 
-        System.out.println(st);
+        System.out.println(st); // james clear
 
+        System.out.println(System.nanoTime());
+        System.out.println(System.nanoTime());
     }
 }

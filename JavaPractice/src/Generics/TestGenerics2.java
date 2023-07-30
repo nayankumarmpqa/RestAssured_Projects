@@ -1,5 +1,11 @@
 package Generics;
 
+/*
+Example of Java Generics using Map
+Now we are going to use map elements using generics.
+Here, we need to pass key and value. Let us understand it by a simple example:
+ */
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;

@@ -9,7 +9,6 @@ public class ListInterfaceTest {
         List<String> al = new ArrayList<>(namesList);
         System.out.println(al);
 
-
         ArrayList<String> sal = new ArrayList<>();
         sal.add("Nayan");
         sal.add("Nayan");
@@ -18,6 +17,7 @@ public class ListInterfaceTest {
         sal.add("Rupali");
         sal.add("Myra");
         sal.add("Aaradhya");
+
         System.out.println(sal);
 
         System.out.println("*****************");

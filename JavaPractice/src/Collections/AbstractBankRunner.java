@@ -20,7 +20,8 @@ class SBI2 extends AbstractBank {
 class AbstractBankRunner {
     public static void main(String[] args) {
         AbstractBank b = new SBI2(); // Abstract class ref var and subclass object
-        System.out.println("ROI: " + b.abstractRateOfInterest()); //implemented ROI: 9.15
+        System.out.println
+                ("ROI: " + b.abstractRateOfInterest()); //implemented ROI: 9.15
         b.concreteMethod(); // prints overridden concrete method
         // b.childClassMethod();  //Cannot resolve method 'childClassMethod' in 'AbstractBank'
 

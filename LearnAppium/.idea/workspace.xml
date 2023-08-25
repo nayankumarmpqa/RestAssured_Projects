@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5425de45-199b-491f-a2a4-64af1ca2a9b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AppiumGID/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasics5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasics5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/AppiumBasics5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppiumGID/AppiumBasics5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +57,7 @@
       <recent name="AppiumGID" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppiumBasics5">
+  <component name="RunManager" selected="TestNG.AppiumBasics5.AppiumTest1">
     <configuration name="AppiumBasics2.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
@@ -134,7 +129,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppiumBasics.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppiumBasics5.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +138,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics5" />
       <option name="METHOD_NAME" value="AppiumTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -154,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AppiumBasics5.AppiumTest1" />
         <item itemvalue="TestNG.AppiumBasics5" />
         <item itemvalue="TestNG.AppiumBasics4.AppiumTest1" />
         <item itemvalue="TestNG.AppiumBasics3.AppiumTest1" />
         <item itemvalue="TestNG.AppiumBasics2.AppiumTest1" />
-        <item itemvalue="TestNG.AppiumBasics.AppiumTest1" />
       </list>
     </recent_temporary>
   </component>

@@ -17,9 +17,11 @@ public class AppiumBasics {
         //start the server manually on cmd
 
         UiAutomator2Options uiAutomator2Options = new UiAutomator2Options();
-        uiAutomator2Options.setDeviceName("Pixel7API33");
-        uiAutomator2Options.setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
-
+        uiAutomator2Options
+                .setDeviceName("Pixel7API33");
+        uiAutomator2Options
+                .setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\" +
+                        "ApiDemos-debug.apk");
 
         AndroidDriver androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"), uiAutomator2Options);
         androidDriver.quit();

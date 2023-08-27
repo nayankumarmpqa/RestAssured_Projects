@@ -10,13 +10,14 @@ import org.testng.annotations.BeforeClass;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 
 public class BeforeEachTest5 {
     public AppiumDriverLocalService appiumDriverLocalService;
     public UiAutomator2Options uiAutomator2Options;
     public AndroidDriver androidDriver;
 
-@BeforeClass
+    @BeforeClass
     public void configureAppium() throws MalformedURLException {
         //start the server programmatically
         appiumDriverLocalService = new AppiumServiceBuilder()
@@ -32,6 +33,9 @@ public class BeforeEachTest5 {
                 .setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\ApiDemos-debug.apk");
 
         androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"), uiAutomator2Options);
+
+        //below code is to apply global implicit wait
+        androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         //code above is common for all tests
     }

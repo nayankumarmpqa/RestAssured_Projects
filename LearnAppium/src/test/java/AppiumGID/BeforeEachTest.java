@@ -8,6 +8,8 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 public class BeforeEachTest {
     public AppiumDriverLocalService appiumDriverLocalService;
@@ -32,7 +34,7 @@ public class BeforeEachTest {
 
 
         androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"), uiAutomator2Options);
-
+        androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         //code above is common for all tests
     }
 

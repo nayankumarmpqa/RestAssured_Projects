@@ -8,9 +8,7 @@
       <change beforePath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/BeforeEachTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/BeforeEachTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/BeforeEachTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/BeforeEachTest5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasicGestures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasicGestures.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +56,7 @@
       <recent name="AppiumGID" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AppiumBasicGestures1">
+  <component name="RunManager" selected="TestNG.SwipeDemo.AppiumTest1">
     <configuration name="AppiumBasicGestures" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
@@ -76,7 +74,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppiumBasicGestures.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LongPressDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -85,43 +83,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasicGestures" />
-      <option name="METHOD_NAME" value="AppiumTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppiumBasics4.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearnAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AppiumGID.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics4" />
-      <option name="METHOD_NAME" value="AppiumTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppiumBasics5" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearnAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AppiumGID.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics5" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.LongPressDemo" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -129,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppiumBasics5.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ScrollDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +100,41 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics5" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.ScrollDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwipeDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearnAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppiumGID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AppiumGID" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.SwipeDemo" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwipeDemo.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearnAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppiumGID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AppiumGID" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.SwipeDemo" />
       <option name="METHOD_NAME" value="AppiumTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -149,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SwipeDemo.AppiumTest1" />
+        <item itemvalue="TestNG.SwipeDemo" />
+        <item itemvalue="TestNG.ScrollDemo" />
+        <item itemvalue="TestNG.LongPressDemo" />
         <item itemvalue="TestNG.AppiumBasicGestures1" />
-        <item itemvalue="TestNG.AppiumBasicGestures.AppiumTest1" />
-        <item itemvalue="TestNG.AppiumBasics5.AppiumTest1" />
-        <item itemvalue="TestNG.AppiumBasics5" />
-        <item itemvalue="TestNG.AppiumBasics4.AppiumTest1" />
       </list>
     </recent_temporary>
   </component>

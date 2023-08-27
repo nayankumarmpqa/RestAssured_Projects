@@ -1,16 +1,15 @@
 package AppiumGID;
 
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
-import org.openqa.selenium.*;
-import org.openqa.selenium.remote.RemoteWebElement;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 
 
-public class AppiumBasicGestures extends BeforeEachTest5 {
+public class LongPressDemo extends LLongPressDemoBase {
 
     @Test
     public void AppiumTest1() throws MalformedURLException, InterruptedException {
@@ -24,12 +23,13 @@ public class AppiumBasicGestures extends BeforeEachTest5 {
         androidDriver.findElement(AppiumBy.accessibilityId("1. Custom Adapter")).click();
         WebElement peopleNames = androidDriver.findElement(By.xpath("//android.widget.TextView[@text='People Names']"));
 
-        //Longtap gesture
-        ((JavascriptExecutor)androidDriver)
-                .executeScript("mobile: longClickGesture",
-                        ImmutableMap.of( "elementId", ((RemoteWebElement) peopleNames).getId(),
-                        "duration", 2000));
 
+        longPressJsexecutor(peopleNames);
+//        //Long tap gesture moved to base class
+//        ((JavascriptExecutor)androidDriver)
+//                .executeScript("mobile: longClickGesture",
+//                        ImmutableMap.of( "elementId", ((RemoteWebElement) peopleNames).getId(),
+//                                "duration", 2000));
         String menText =
         androidDriver.findElement(By.id("android:id/title")).getText();
 

@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 
 
-public class DragDropDemo extends ScrollDemoBase {
+public class DragDropDemo extends DragDropDemoBase {
 
     @Test
     public void AppiumTest1() throws MalformedURLException, InterruptedException {
@@ -26,12 +26,14 @@ public class DragDropDemo extends ScrollDemoBase {
         WebElement sourceElement = androidDriver.findElement(By.id("io.appium.android.apis:id/drag_dot_1"));
 
 
-        //Drag and Drop gesture code
-        ((JavascriptExecutor) androidDriver).executeScript("mobile: dragGesture", ImmutableMap.of(
-                "elementId", ((RemoteWebElement)sourceElement ).getId(),
-                "endX", 619,
-                "endY", 560
-        ));
+//        //Drag and Drop gesture code
+//        ((JavascriptExecutor) androidDriver).executeScript("mobile: dragGesture", ImmutableMap.of(
+//                "elementId", ((RemoteWebElement)sourceElement ).getId(),
+//                "endX", 619,
+//                "endY", 560
+//        ));
+
+        dragAndDropAction(sourceElement, 619, 560); // Drag and Drop gesture code is moved to base class
 
         Thread.sleep(3000);
 

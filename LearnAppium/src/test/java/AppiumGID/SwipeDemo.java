@@ -1,11 +1,8 @@
 package AppiumGID;
 
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -36,10 +33,9 @@ public class SwipeDemo extends ScrollDemoBase {
 //                "percent", 0.75
 //        ));
 
-        swipeleftFrom(firstImage, "left"); // swipe code moved to Base class
+        swipeLeftFrom(firstImage, "left"); // swipe code moved to Base class
 
-        Assert.assertEquals(androidDriver.findElement(By.xpath("//android.widget.ImageView[1]"))
-                .getAttribute("focusable"), "false");
+        Assert.assertEquals(firstImage.getAttribute("focusable"), "false");
 
         Thread.sleep(5000);
 

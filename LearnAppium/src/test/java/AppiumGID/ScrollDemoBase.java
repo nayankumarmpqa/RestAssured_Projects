@@ -73,7 +73,7 @@ public class ScrollDemoBase {
         }while(canScrollMore);
     }
 
-    public void swipeleftFrom(WebElement firstImage, String direction ){
+    public void swipeLeftFrom(WebElement firstImage, String direction ){
         //Swipe code
         ((JavascriptExecutor) androidDriver).executeScript("mobile: swipeGesture", ImmutableMap.of(
                 "elementId", ((RemoteWebElement)firstImage ).getId(),

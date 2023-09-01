@@ -8,7 +8,8 @@
       <change beforePath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasicGestures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/AppiumBasicGestures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +150,6 @@
         <item itemvalue="TestNG.SwipeDemo" />
         <item itemvalue="TestNG.ScrollDemo" />
         <item itemvalue="TestNG.LongPressDemo" />
-        <item itemvalue="TestNG.AppiumBasicGestures1" />
       </list>
     </recent_temporary>
   </component>

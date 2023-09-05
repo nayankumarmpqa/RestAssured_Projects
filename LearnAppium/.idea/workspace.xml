@@ -56,7 +56,24 @@
       <recent name="AppiumGID" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DragDropDemo">
+  <component name="RunManager" selected="TestNG.AppPackageAndActivityBasics">
+    <configuration name="AppPackageAndActivityBasics" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearnAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppiumGID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AppiumGID" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppPackageAndActivityBasics" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DragDropDemo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
@@ -74,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongPressDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MiscAppiumBasicGestures" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -83,7 +100,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.LongPressDemo" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.MiscAppiumBasicGestures" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -91,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrollDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MiscAppiumBasicGestures.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -100,25 +117,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.ScrollDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SwipeDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearnAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AppiumGID.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.SwipeDemo" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.MiscAppiumBasicGestures" />
+      <option name="METHOD_NAME" value="AppiumTest1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AppPackageAndActivityBasics" />
+        <item itemvalue="TestNG.MiscAppiumBasicGestures" />
+        <item itemvalue="TestNG.MiscAppiumBasicGestures.AppiumTest1" />
         <item itemvalue="TestNG.DragDropDemo" />
         <item itemvalue="TestNG.SwipeDemo.AppiumTest1" />
-        <item itemvalue="TestNG.SwipeDemo" />
-        <item itemvalue="TestNG.ScrollDemo" />
-        <item itemvalue="TestNG.LongPressDemo" />
       </list>
     </recent_temporary>
   </component>

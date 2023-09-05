@@ -27,7 +27,8 @@ public class DragDropDemo extends DragDropDemoBase {
 
 
 //        //Drag and Drop gesture code
-//        ((JavascriptExecutor) androidDriver).executeScript("mobile: dragGesture", ImmutableMap.of(
+//        ((JavascriptExecutor) androidDriver).executeScript("mobile: dragGesture",
+//        ImmutableMap.of(
 //                "elementId", ((RemoteWebElement)sourceElement ).getId(),
 //                "endX", 619,
 //                "endY", 560

@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 
 
-public class AppiumBasics5 extends BeforeEachTest5 {
+public class GeneralStoreApp extends BeforeEachTest5 {
 
     @Test
     public void AppiumTest1() throws MalformedURLException {

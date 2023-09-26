@@ -2,6 +2,7 @@ package AppiumGID;
 
 import io.appium.java_client.AppiumBy;
 import org.openqa.selenium.By;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -17,7 +18,7 @@ public class AppiumBasics5WhistleFlash extends AppiumBasics5WhistleFlashBase {
         // finding and clicking locator
         // in Appium we have following type of locators
         // xpath , id,className, accessibilityId, androidUIAutomator
-        androidDriver.findElement(By.className("android.widget.Button")).click();
+        androidDriver.findElement(AppiumBy.className("android.widget.Button")).click();
         Thread.sleep(6000);
 
 //        String alertTitle = androidDriver.findElement(By.id("android:id/alertTitle")).getText();

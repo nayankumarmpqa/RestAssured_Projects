@@ -20,6 +20,7 @@ public class AppiumBasics5WhistleFlashBase {
 
     @BeforeClass
     public void configureAppium() throws MalformedURLException {
+
         //start the server programmatically
         appiumDriverLocalService = new AppiumServiceBuilder()
                 .withAppiumJS(new File("C:\\Users\\Hp\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
@@ -32,14 +33,13 @@ public class AppiumBasics5WhistleFlashBase {
         uiAutomator2Options.setDeviceName("Pixel7API33");
         uiAutomator2Options
                 .setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\app-debug-20230920.apk");
-
+        uiAutomator2Options.setCapability("autoGrantPermissions", "true");
         androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"), uiAutomator2Options);
 
         //below code is to apply global implicit wait
         androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("autoGrantPermissions", "true");
+
 
         //code above is common for all tests
     }

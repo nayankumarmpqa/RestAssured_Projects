@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 
 
-public class SwipeDemo extends ScrollDemoBase {
+public class SwipeDemo extends ScrollDemoBase7 {
 
     @Test
     public void AppiumTest1() throws MalformedURLException, InterruptedException {

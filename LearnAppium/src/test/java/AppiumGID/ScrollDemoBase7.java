@@ -16,7 +16,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class ScrollDemoBase {
+public class ScrollDemoBase7 {
     public AppiumDriverLocalService appiumDriverLocalService;
     public UiAutomator2Options uiAutomator2Options;
     public AndroidDriver androidDriver;
@@ -44,7 +44,7 @@ public class ScrollDemoBase {
         //code above is common for all tests
     }
 
-    @AfterClass
+   // @AfterClass
     public void tearDown() {
         androidDriver.quit();
 
@@ -61,12 +61,16 @@ public class ScrollDemoBase {
 
 
     public void scrollToEndAction(){
-
         boolean canScrollMore;
         do {
             canScrollMore = (Boolean) ((JavascriptExecutor) androidDriver)
-                    .executeScript("mobile: scrollGesture", ImmutableMap.of(
-                            "left", 100, "top", 100, "width", 200, "height", 200,
+                    .executeScript(
+                            "mobile: scrollGesture",
+                                    ImmutableMap.of(
+                                            "left", 100,
+                                            "top", 100,
+                                            "width", 200,
+                                            "height", 200,
                             "direction", "down",
                             "percent", 3.0
                     ));

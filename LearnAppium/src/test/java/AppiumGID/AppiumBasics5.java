@@ -15,7 +15,7 @@ public class AppiumBasics5 extends BeforeEachTest5 {
         // configureAppium(); will be automatically invoked as @Beforeclass method in parent class
 
         // finding and clicking locator
-        // in Appium we have following type of locators
+        // in Appium we have the following types of locators
         // xpath , id,className, accessibilityId, androidUIAutomator
         androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
         androidDriver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies']")).click();

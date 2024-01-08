@@ -8,7 +8,6 @@ import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.io.File;
@@ -16,7 +15,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-public class ScrollDemoBase7 {
+public class SwipeDemoBase8 {
     public AppiumDriverLocalService appiumDriverLocalService;
     public UiAutomator2Options uiAutomator2Options;
     public AndroidDriver androidDriver;
@@ -64,28 +63,30 @@ public class ScrollDemoBase7 {
         boolean canScrollMore;
         do {
             canScrollMore = (Boolean) ((JavascriptExecutor) androidDriver)
-                    .executeScript
-                            (
-                                    "mobile: scrollGesture",
-                                    ImmutableMap.of
-                                            (
-                                                    "left", 100,
-                                                    "top", 100,
-                                                    "width", 200,
-                                                    "height", 200,
-                                                    "direction", "down",
-                                                    "percent", 3.0
-                                            )
-                            );
+                    .executeScript(
+                            "mobile: scrollGesture",
+                            ImmutableMap.of(
+                                    "left", 100,
+                                    "top", 100,
+                                    "width", 200,
+                                    "height", 200,
+                                    "direction", "down",
+                                    "percent", 3.0
+                            ));
         } while (canScrollMore);
     }
 
     public void swipeLeftFrom(WebElement firstImage, String direction) {
         //Swipe code
-        ((JavascriptExecutor) androidDriver).executeScript("mobile: swipeGesture", ImmutableMap.of(
-                "elementId", ((RemoteWebElement) firstImage).getId(),
-                "direction", direction,
-                "percent", 0.75
-        ));
+        ((JavascriptExecutor) androidDriver).executeScript
+                (
+                        "mobile: swipeGesture",
+                        ImmutableMap.of
+                                (
+                                        "elementId", ((RemoteWebElement) firstImage).getId(),
+                                        "direction", direction,
+                                        "percent", 0.75
+                                )
+                );
     }
 }

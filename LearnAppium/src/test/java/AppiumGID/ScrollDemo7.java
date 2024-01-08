@@ -13,16 +13,17 @@ public class ScrollDemo7 extends ScrollDemoBase7 {
         // configureAppium(); will be automatically invoked as @Beforeclass method in parent class
 
         // finding and clicking locator
-        // in Appium we have following type of locators
+        // in Appium we have the following types of locators
         // xpath , id,className, accessibilityId, androidUIAutomator
         androidDriver.findElement(AppiumBy.accessibilityId("Views")).click();
         androidDriver.findElement(
                 //androidUIAutomator by google method to scroll
                 (AppiumBy.androidUIAutomator
                         (
-                        "new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"
-                         )));
-Thread.sleep(3000);
+                                "new UiScrollable(new UiSelector()).scrollIntoView(text(\"WebView\"));"
+                        )));
+
+        Thread.sleep(3000);
 
         androidDriver.findElement(
                 //androidUIAutomator by google method to scroll
@@ -33,7 +34,6 @@ Thread.sleep(3000);
 
         // OR we can use android-mobile-gestures javascript method we created in base class
         //scrollToEndAction();
-
 
         Thread.sleep(5000);
 

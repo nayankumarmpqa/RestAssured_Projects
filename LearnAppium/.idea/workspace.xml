@@ -7,11 +7,11 @@
     <list default="true" id="5425de45-199b-491f-a2a4-64af1ca2a9b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/LLongPressDemoBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/LongPressDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/LLongPressDemoBase6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/LLongPressDemoBase6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemo7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/Wflash1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/Wflash1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,25 +60,7 @@
       <recent name="AppiumGID" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ScrollDemo7.AppiumTest1">
-    <configuration name="AppiumBasics2.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearnAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AppiumGID.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics2" />
-      <option name="METHOD_NAME" value="AppiumTest1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Wflash1.AppiumTest1">
     <configuration name="AppiumBasics5.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
@@ -133,6 +115,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Wflash1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearnAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppiumGID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AppiumGID" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.Wflash1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Wflash1.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Wflash1.AppiumTest1" />
+        <item itemvalue="TestNG.Wflash1" />
         <item itemvalue="TestNG.ScrollDemo7.AppiumTest1" />
         <item itemvalue="TestNG.LongPressDemo6.AppiumTest1" />
         <item itemvalue="TestNG.AppiumBasics5.AppiumTest1" />
-        <item itemvalue="TestNG.Wflash1.AppiumTest1" />
-        <item itemvalue="TestNG.AppiumBasics2.AppiumTest1" />
       </list>
     </recent_temporary>
   </component>

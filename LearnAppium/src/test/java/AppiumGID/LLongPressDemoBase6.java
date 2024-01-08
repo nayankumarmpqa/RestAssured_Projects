@@ -51,13 +51,15 @@ public class LLongPressDemoBase6 {
         appiumDriverLocalService.stop(); //To stop server
     }
 
-    public void longPressJsexecutor(WebElement peopleNamesElemet){
+    public void longPressJsexecutor(WebElement peopleNamesElement) {
         //Long tap gesture
-        ((JavascriptExecutor)androidDriver)
-                .executeScript  (
+        ((JavascriptExecutor) androidDriver).executeScript
+                (
                         "mobile: longClickGesture",
-                                ImmutableMap.of( "elementId", ((RemoteWebElement) peopleNamesElemet).getId(),
-                            "duration", 2000)
-                                );
+                        ImmutableMap.of
+                                (
+                                "elementId", ((RemoteWebElement) peopleNamesElement).getId(),
+                                "duration", 2000)
+                );
     }
 }

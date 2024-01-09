@@ -7,11 +7,12 @@
     <list default="true" id="5425de45-199b-491f-a2a4-64af1ca2a9b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/LLongPressDemoBase6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/LLongPressDemoBase6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemo7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemo7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollDemoBase7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/SwipeDemo8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/Wflash1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/Wflash1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/AppPackageAndActivityBasics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/AppiumBasics3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/GeneralStoreApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/Wflash1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppiumGID/Wflash1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2URAmxgKTMA1DtrB8p6tx5K7lEq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -46,7 +50,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Hp/Documents/IntelliJ Projects/LearnAppium/src/test/java/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -61,7 +65,7 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.Wflash1.AppiumTest1">
-    <configuration name="AppiumBasics5.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AppiumBasics.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -70,7 +74,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics5" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics" />
       <option name="METHOD_NAME" value="AppiumTest1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -117,46 +121,75 @@
     </configuration>
     <configuration name="Wflash1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AppiumGID.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="AppiumGID" />
       <option name="MAIN_CLASS_NAME" value="AppiumGID.Wflash1" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="test-output" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
-      <listeners />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter" />
+      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Wflash1.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="AppiumGID.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="AppiumGID" />
       <option name="MAIN_CLASS_NAME" value="AppiumGID.Wflash1" />
       <option name="METHOD_NAME" value="AppiumTest1" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.AppiumBasics.AppiumTest1" />
+      <item itemvalue="TestNG.LongPressDemo6.AppiumTest1" />
+      <item itemvalue="TestNG.ScrollDemo7.AppiumTest1" />
+      <item itemvalue="TestNG.Wflash1" />
+      <item itemvalue="TestNG.Wflash1.AppiumTest1" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.Wflash1.AppiumTest1" />
+        <item itemvalue="TestNG.AppiumBasics.AppiumTest1" />
         <item itemvalue="TestNG.Wflash1" />
         <item itemvalue="TestNG.ScrollDemo7.AppiumTest1" />
         <item itemvalue="TestNG.LongPressDemo6.AppiumTest1" />
-        <item itemvalue="TestNG.AppiumBasics5.AppiumTest1" />
       </list>
     </recent_temporary>
   </component>

@@ -19,19 +19,25 @@ public class Wflash1 extends WFlashBeforeEachTest {
         // in Appium we have the following types of locators
         // xpath , id,className, accessibilityId, androidUIAutomator
 
-        androidDriver.findElement(By.xpath("//android.view.View/android.view.View/android.view.View")).click();
+        //androidDriver.findElement(By.className("android.widget.Button")).click(); // Let's Go button
+        androidDriver.findElement(By.xpath("//android.view.View[@index=3]")).click();
         //WebElement webElementUserId = androidDriver.findElements(AppiumBy.className("android.widget.EditText")).get(0);
-       androidDriver.findElement(By.className("android.widget.EditText")).click();
+       androidDriver.findElement(By.className("android.widget.EditText")).click(); // Username Input field
 //androidDriver.findElement(By.xpath("//android.widget.TextView[@text='username']")).click();
-        Thread.sleep(5000);
-        //webElementUserId.click();
+        Thread.sleep(7000);
+        // webElementUserId.click();
        // webElementUserId.sendKeys(un);
-        androidDriver.findElement(By.className("android.widget.EditText")).sendKeys(un);
-        androidDriver.findElement(AppiumBy.className("android.widget.Button")).click();
+        androidDriver.findElement(By.className("android.widget.EditText")).sendKeys(un); // Sending username
+        androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Enter Password']")).click(); // Enter Password Button
 
-        WebElement webElementPassword = androidDriver.findElements(AppiumBy.className("android.widget.EditText")).get(1);
-        webElementPassword.click();
-        webElementPassword.sendKeys(pw);
+        Thread.sleep(2000);
+
+        androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.EditText/android.view.View")).click();
+        Thread.sleep(2000);
+        WebElement l = androidDriver.findElement(By.xpath("//android.view.View/android.widget.EditText"));
+        l.click();
+        Thread.sleep(3000);
+        l.sendKeys(pw); // sending password
 
         Thread.sleep(2000);
         WebElement webElementSignInButton =androidDriver.findElement(By.xpath("//android.view.View/android.view.View/android.view.View/android.widget.Button"));
@@ -50,10 +56,8 @@ public class Wflash1 extends WFlashBeforeEachTest {
         //androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.Button")).click();
         androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Log out']")).click();
 
-        Thread.sleep(2000);
+        Thread.sleep(7000);
 
-        androidDriver.findElement(By.xpath("//android.view.View/android.view.View/android.view.View")).click();
-        Thread.sleep(2000);
 
 //        androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
 //        androidDriver.findElement(By.xpath("//android.widget.TextView[@content-desc='3. Preference dependencies']")).click();

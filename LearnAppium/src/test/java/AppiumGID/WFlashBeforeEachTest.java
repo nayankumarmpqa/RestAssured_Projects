@@ -30,7 +30,7 @@ public class WFlashBeforeEachTest {
         uiAutomator2Options = new UiAutomator2Options();
         uiAutomator2Options.setDeviceName("Pixel7API33");
         uiAutomator2Options
-                .setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\app-debug 03 Jan.apk");
+                .setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\app-debug 9 Jan-2.apk");
         uiAutomator2Options.autoGrantPermissions();
 
 

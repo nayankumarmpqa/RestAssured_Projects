@@ -7,11 +7,7 @@
     <list default="true" id="5425de45-199b-491f-a2a4-64af1ca2a9b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/DragDropDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/DragDropDemo9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/DragDropDemoBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/DragDropDemoBase9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/WFlashBeforeEachTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/WFlashBeforeEachTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/AppiumGID/WFlashBeforeEachTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppiumGID/WFlashBeforeEachTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/app-debug-20230920.apk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +62,8 @@
       <recent name="AppiumGID" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Wflash1">
-    <configuration name="AppiumBasics.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ScrollEcommerce12.fillForm">
+    <configuration name="Ecommerce10.fillForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +72,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.AppiumBasics" />
-      <option name="METHOD_NAME" value="AppiumTest1" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.Ecommerce10" />
+      <option name="METHOD_NAME" value="fillForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -85,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongPressDemo6.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ScrollEcommerce12.fillForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +90,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.LongPressDemo6" />
-      <option name="METHOD_NAME" value="AppiumTest1" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.ScrollEcommerce12" />
+      <option name="METHOD_NAME" value="fillForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScrollDemo7.AppiumTest1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ToastmsgEcommerce11.fillForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +108,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.ScrollDemo7" />
-      <option name="METHOD_NAME" value="AppiumTest1" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.ToastmsgEcommerce11" />
+      <option name="METHOD_NAME" value="fillForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -179,19 +175,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.AppiumBasics.AppiumTest1" />
-      <item itemvalue="TestNG.LongPressDemo6.AppiumTest1" />
-      <item itemvalue="TestNG.ScrollDemo7.AppiumTest1" />
+      <item itemvalue="TestNG.Ecommerce10.fillForm" />
+      <item itemvalue="TestNG.ScrollEcommerce12.fillForm" />
+      <item itemvalue="TestNG.ToastmsgEcommerce11.fillForm" />
       <item itemvalue="TestNG.Wflash1" />
       <item itemvalue="TestNG.Wflash1.AppiumTest1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ScrollEcommerce12.fillForm" />
+        <item itemvalue="TestNG.ToastmsgEcommerce11.fillForm" />
+        <item itemvalue="TestNG.Ecommerce10.fillForm" />
         <item itemvalue="TestNG.Wflash1" />
         <item itemvalue="TestNG.Wflash1.AppiumTest1" />
-        <item itemvalue="TestNG.AppiumBasics.AppiumTest1" />
-        <item itemvalue="TestNG.ScrollDemo7.AppiumTest1" />
-        <item itemvalue="TestNG.LongPressDemo6.AppiumTest1" />
       </list>
     </recent_temporary>
   </component>

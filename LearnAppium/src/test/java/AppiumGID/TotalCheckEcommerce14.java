@@ -9,10 +9,10 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class ScrollEcommerce12 extends ScrollEcommerceBase12 {
+public class TotalCheckEcommerce14 extends TotalCheckEcommerceBase14 {
 
     @Test
-    public void fillForm() {
+    public void fillForm() throws InterruptedException {
 
         //click and expand the dropdown
         androidDriver.findElement(By.id("android:id/text1")).click();
@@ -45,20 +45,31 @@ public class ScrollEcommerce12 extends ScrollEcommerceBase12 {
             String productName = androidDriver.findElement(By.id("com.androidsample.generalstore:id/productName")).getText();
             if (productName.equalsIgnoreCase("Jordan 6 Rings")) {
                 androidDriver.findElements(By.id("com.androidsample.generalstore:id/productAddCart")).get(i).click();
-               break;
+                // break;
             }
         }
         androidDriver.findElement(By.id("com.androidsample.generalstore:id/appbar_btn_cart")).click();
-
-
-        WebDriverWait wait = new WebDriverWait(androidDriver, Duration.ofSeconds(5));
-
+        Thread.sleep(3000);
+        WebDriverWait wait = new WebDriverWait(androidDriver, Duration.ofSeconds(7));
         wait.until(ExpectedConditions.attributeContains(androidDriver.findElement(By.id("com.androidsample.generalstore:id/toolbar_title")), "text", "Cart"));
-        String productNameInCart = androidDriver.findElement(By.id("com.androidsample.generalstore:id/productName")).getText();
-        Assert.assertEquals(productNameInCart,"Jordan 6 Rings");
 
+
+        int itemsInCart = androidDriver.findElements(By.id("com.androidsample.generalstore:id/productPrice")).size();
+        Double cartPriceSum = 0.0;
+        cartPriceSum = getaDouble(itemsInCart, cartPriceSum);
+
+        String checkoutPriceString = androidDriver.findElement(By.id("com.androidsample.generalstore:id/totalAmountLbl")).getText();
+        Double checkoutPriceStringAsDouble = Double.parseDouble(checkoutPriceString.substring(1));
+
+        System.out.println("cartPriceSum, checkoutPriceStringAsDouble is = " + cartPriceSum +" " + checkoutPriceStringAsDouble);
+
+        Assert.assertEquals(cartPriceSum, checkoutPriceStringAsDouble);
 
     }
 
 
+
 }
+
+
+

@@ -1,15 +1,25 @@
 package AppiumGID;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
+import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import javax.sound.midi.Soundbank;
+import java.sql.SQLOutput;
 import java.time.Duration;
+import java.util.Set;
 
 public class TotalCheckEcommerce14 extends TotalCheckEcommerceBase14 {
+
+    private AppiumDriverLocalService appiumDriverLocalService ;
 
     @Test
     public void fillForm() throws InterruptedException {
@@ -64,6 +74,30 @@ public class TotalCheckEcommerce14 extends TotalCheckEcommerceBase14 {
         System.out.println("cartPriceSum, checkoutPriceStringAsDouble is = " + cartPriceSum +" " + checkoutPriceStringAsDouble);
 
         Assert.assertEquals(cartPriceSum, checkoutPriceStringAsDouble);
+
+        WebElement termsConditionElelment = androidDriver.findElement(By.id("com.androidsample.generalstore:id/termsButton"));
+        longPressJsexecutor(termsConditionElelment);
+        Thread.sleep(3000);
+        androidDriver.findElement(By.id("android:id/button1")).click();
+        androidDriver.findElement(AppiumBy.className("android.widget.CheckBox")).click();
+        androidDriver.findElement(By.id("com.androidsample.generalstore:id/btnProceed")).click();
+
+        Thread.sleep(3000);
+
+        Set<String> contextHandles = androidDriver.getContextHandles();
+        for(String item: contextHandles){
+            System.out.println(item);
+        }
+        //NATIVE_APP
+        //WEBVIEW_com.androidsample.generalstore
+        androidDriver.context("WEBVIEW_com.androidsample.generalstore");
+        androidDriver.findElement(By.name("q")).sendKeys("rahul shetty academy");
+        androidDriver.findElement(By.name("q")).sendKeys(Keys.ENTER);
+        androidDriver.pressKey(new KeyEvent(AndroidKey.BACK));
+
+        androidDriver.context("NATIVE_APP");
+        System.out.println("switched back to Native app context successfully!!!....");
+
 
     }
 

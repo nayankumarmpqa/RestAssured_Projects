@@ -1,9 +1,14 @@
 package AppiumGID;
 
+import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.BeforeClass;
 
 import java.io.File;
@@ -28,6 +33,7 @@ public class TotalCheckEcommerceBase14 {
 
         uiAutomator2Options = new UiAutomator2Options();
         uiAutomator2Options.setDeviceName("Pixel7API33");
+        uiAutomator2Options.setChromedriverExecutable("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\chromedriver.exe");
         uiAutomator2Options
                 .setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\LearnAppium\\src\\test\\java\\resources\\General-Store.apk");
 
@@ -55,7 +61,7 @@ public class TotalCheckEcommerceBase14 {
         appiumDriverLocalService.stop(); //To stop server
     }
 
-   /* public void longPressJsexecutor(WebElement peopleNamesElemet){
+    public void longPressJsexecutor(WebElement peopleNamesElemet){
         //Long tap gesture
         ((JavascriptExecutor)androidDriver)
                 .executeScript("mobile: longClickGesture",
@@ -63,7 +69,7 @@ public class TotalCheckEcommerceBase14 {
                                 "duration", 2000));
     }
 
-
+/*
     public void scrollToEndAction(){
 
         boolean canScrollMore;

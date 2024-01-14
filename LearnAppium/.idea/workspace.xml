@@ -7,8 +7,8 @@
     <list default="true" id="5425de45-199b-491f-a2a4-64af1ca2a9b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../APIFramework/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollEcommerce12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/ScrollEcommerce12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/TotalCheckEcommerce14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/TotalCheckEcommerce14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/TotalCheckEcommerceBase14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/TotalCheckEcommerceBase14.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestAssuredMavenAID/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

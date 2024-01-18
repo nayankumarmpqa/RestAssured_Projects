@@ -34,10 +34,10 @@ AndroidDriver androidDriver;
     @AndroidFindBy(xpath = "//android.view.View/android.view.View/android.view.View/android.widget.Button")
     private WebElement signInButton;
 
-    public void clickSignInButton() throws InterruptedException {
+    public HomeTabPage clickSignInButton() throws InterruptedException {
         signInButton.click();
         Thread.sleep(5000);
-
+        return new HomeTabPage(androidDriver);
     }
 
 

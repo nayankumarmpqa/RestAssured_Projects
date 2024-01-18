@@ -1,8 +1,5 @@
 package GroupID;
 
-import io.appium.java_client.AppiumBy;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObjects.android.*;
@@ -10,7 +7,7 @@ import pageObjects.android.*;
 import java.net.MalformedURLException;
 
 
-public class Wflash1 extends WFlashBeforeEachTest {
+public class Wflash1 extends WFlashBeforeEachTestAndroid {
 
     @Test(dataProvider = "data-provider")
     public void AppiumTest1(String un, String pw) throws MalformedURLException, InterruptedException {

@@ -7,12 +7,14 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 
-public class AndroidActions {
+public class AndroidActions extends AppiumCommonActions{
 
     AndroidDriver androidDriver;
 
     public AndroidActions(AndroidDriver androidDriver) {
-        this.androidDriver = androidDriver;
+
+        super(androidDriver);
+    this.androidDriver = androidDriver;
     }
 
 

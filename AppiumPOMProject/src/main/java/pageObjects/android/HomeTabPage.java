@@ -17,8 +17,9 @@ AndroidDriver androidDriver;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Profile']")
     private WebElement profileTabNavButton;
 
-    public void clickProfileTabNavButton(){
+    public ProfileTabPage clickProfileTabNavButton(){
         profileTabNavButton.click();
+         return new ProfileTabPage(androidDriver);
     }
 
 }

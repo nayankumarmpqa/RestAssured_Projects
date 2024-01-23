@@ -12,9 +12,8 @@ public class AndroidActions extends AppiumCommonActions{
     AndroidDriver androidDriver;
 
     public AndroidActions(AndroidDriver androidDriver) {
-
-        super(androidDriver);
-    this.androidDriver = androidDriver;
+        //super(androidDriver);
+        this.androidDriver = androidDriver;
     }
 
 

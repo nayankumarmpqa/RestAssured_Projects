@@ -3,11 +3,30 @@ package GroupID;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObjects.android.*;
+import testBaseUtils.WFlashBeforeEachTestAndroid;
 
 import java.net.MalformedURLException;
 
 
 public class FlashObectOptimised extends WFlashBeforeEachTestAndroid {
+
+/*  @BeforeMethod
+    public void preSetup(){
+        //Setting screen to home screen
+        //Activity activity = new Activity("", "");
+        // The startActivity strikethrough as deprecated and I get errors running my script. If I hover over the startActivity, it says to use 'mobile: startActivity' extension instead.
+        androidDriver.executeScript(
+                "mobile: startActivity",
+                                            ImmutableMap.of(
+                                                        "intent","io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies"));
+
+
+        * the solution is on UiAutomator doc: https://github.com/appium/appium-uiautomator2-driver, search for mobile: startActivity,
+        * you need to use execute script, like this:
+        * driver.executeScript("mobile: startActivity", ImmutableMap.of("intent","io.appium.android.apis/io.appium.android.apis.preference.PreferenceDependencies"));
+        * intent means the full name of the activity intent to start*
+    */
+
 
     @Test(dataProvider = "data-provider")
     public void AppiumTest1(String un, String pw) throws MalformedURLException, InterruptedException {
@@ -40,6 +59,7 @@ public class FlashObectOptimised extends WFlashBeforeEachTestAndroid {
         yourInformationPage.scrollToTextGesture("Log out");
         yourInformationPage.clickLogOutOption();
         yourInformationPage.clickLogOutConfirmation();
+
 
         //tearDown(); will be automatically invoked as @After class method in parent class
     }

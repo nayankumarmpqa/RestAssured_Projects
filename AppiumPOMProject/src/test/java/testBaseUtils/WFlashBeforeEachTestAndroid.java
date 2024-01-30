@@ -40,11 +40,14 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
 
         uiAutomator2Options = new UiAutomator2Options();
         uiAutomator2Options.setDeviceName(androidDeviceName); // uiAutomator2Options.setDeviceName("Pixel7API33");
-        uiAutomator2Options
-                .setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\AppiumPOMProject\\src\\test\\java\\resources\\app-debug 2301.apk");
+
+        //uiAutomator2Options.setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\AppiumPOMProject\\src\\test\\java\\resources\\app-debug 2301.apk");
+        uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\app-debug 2301.apk");
+
         uiAutomator2Options.autoGrantPermissions();
 
-        androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"), uiAutomator2Options);
+        //androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"), uiAutomator2Options);
+        androidDriver = new AndroidDriver(appiumDriverLocalService.getUrl(), uiAutomator2Options);
 
         //below code is to apply global implicit wait
         androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));

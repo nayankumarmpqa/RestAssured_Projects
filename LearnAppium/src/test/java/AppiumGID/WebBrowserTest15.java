@@ -5,6 +5,7 @@ import io.appium.java_client.android.nativekey.AndroidKey;
 import io.appium.java_client.android.nativekey.KeyEvent;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -30,7 +31,12 @@ public class WebBrowserTest15 extends WebBrowserTestBase15 {
 //        androidDriver.findElement(By.name("q")).sendKeys("rahul shetty academy");
 //        androidDriver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 //        androidDriver.pressKey(new KeyEvent(AndroidKey.BACK));
+        androidDriver.findElement(By.xpath("//span[@class='navbar-toggler-icon']")).click();
+        androidDriver.findElement(By.xpath("//a[@routerlink='/products']")).click();
+        ((JavascriptExecutor) androidDriver).executeScript("window.scrollBy(0,1000)", ""); //scroll code
 
+        String capturedLabel = androidDriver.findElement(By.xpath("//a[normalize-space()='Devops']")).getText();
+        Assert.assertEquals(capturedLabel, "Devops");
         System.out.println("performed web browser test on mobile successfully!!!....");
 
 

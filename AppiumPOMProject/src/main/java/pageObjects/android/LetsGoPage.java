@@ -6,6 +6,8 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.PrimitiveIterator;
+
 public class LetsGoPage {
     AndroidDriver androidDriver;
 
@@ -14,9 +16,24 @@ public class LetsGoPage {
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }
 
-    // androidDriver.findElement(By.xpath("//android.view.View[@index=3]")).click();
-    @AndroidFindBy(xpath = "//android.view.View[@index=3]")
+    @AndroidFindBy(id = "Whistle Logo Name")
+    private WebElement logo;
+    @AndroidFindBy(xpath = "//android.view.View[@index=1]")
     private WebElement letsGoButton;
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Family or friend?']")
+    private WebElement familyOrFriend;
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Check your messages for an invite link']")
+    private WebElement checkYourMessageDialog;
+
+    @AndroidFindBy(xpath = ("//android.widget.TextView)[2]"))
+    private WebElement dialogMessage;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Got it']")
+    private WebElement gotItButton;
+
+    public boolean isWhistleLogoDisplayed() {
+        return logo.isDisplayed();
+    }
 
     public WhatsYourEmailPage letsGoButtonClick() {
         letsGoButton.click();
@@ -24,24 +41,27 @@ public class LetsGoPage {
         return new WhatsYourEmailPage(androidDriver);
     }
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Welcome to']")
-    private WebElement welcomeLabel;
-
-    public boolean isWelcomeLabelDisplayed(){
-        return welcomeLabel.isDisplayed();
-    }
-    @AndroidFindBy(id = "Whistle Logo Name")
-    private WebElement logo;
-
-    public boolean isWhistleLogoDisplayed() {
-        return logo.isDisplayed();
+    public boolean isFamilyOrFriendDisplayed() {
+        return familyOrFriend.isDisplayed();
     }
 
-    @AndroidFindBy(id = "Image of a dog")
+    public void clickFamilyOrFriendLink() {
+        familyOrFriend.click();
+    }
+
+    public void getDialogTitle() {
+        System.out.println(checkYourMessageDialog.getText());
+    }
+
+    public void clickGotIt() {
+        gotItButton.click();
+    }
+
+    /*@AndroidFindBy(id = "Image of a dog")
     private WebElement imageOfDog;
 
     public boolean isDogImageDisplayed() {
         return imageOfDog.isDisplayed();
-    }
+    }*/
 
 }

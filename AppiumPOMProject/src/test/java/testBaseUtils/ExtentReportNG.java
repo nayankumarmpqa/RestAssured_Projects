@@ -9,9 +9,9 @@ public class ExtentReportNG {
 
     public static ExtentReports getExtentReportsObject() {
 
-        // Two important classes for reporting ExtentSparkReporter, ExtentReport
+        // Two important classes for reporting ExtentSparkReporter, ExtentReports
 
-        String path = System.getProperty("user.dir")+"src\\test\\java\\resources\\index.html";
+        String path = System.getProperty("user.dir")+"\\src\\test\\java\\Results_resources\\index.html";
         ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(path);
         extentSparkReporter.config().setReportName("whistle Automation Results");
         extentSparkReporter.config().setDocumentTitle("Whistle Test results page title");

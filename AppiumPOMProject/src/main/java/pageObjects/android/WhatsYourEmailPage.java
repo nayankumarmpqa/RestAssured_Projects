@@ -6,59 +6,54 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-import java.awt.event.KeyEvent;
-
 public class WhatsYourEmailPage {
-AndroidDriver androidDriver;
-    public WhatsYourEmailPage(AndroidDriver androidDriver){
+    AndroidDriver androidDriver;
+
+    public WhatsYourEmailPage(AndroidDriver androidDriver) {
         this.androidDriver = androidDriver;
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }
 
-
-    @AndroidFindBy(className = "android.widget.EditText")
-    private WebElement usernameFieldInput;
-
-    public boolean isUserNameFieldDisplayed(){
-        return usernameFieldInput.isDisplayed();
-    }
-
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Whats your email address?']")
+    private WebElement whatsYourEmailScreenTitle;
 
     @AndroidFindBy(className = "android.widget.EditText")
     private WebElement usernameField;
+    @AndroidFindBy(className = "android.widget.EditText")
+    private WebElement usernameFieldInput;
 
-    public void clickAndSetUsernameField(String useremail) throws InterruptedException {
-        usernameField.click();
-        Thread.sleep(7000);
-        usernameFieldInput.sendKeys(useremail);
-    }
-
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Enter Password']")
-    private WebElement enterPasswordButton;
-
-    public SignInPasswordPage clickEnterPasswordButton() throws InterruptedException {
-        enterPasswordButton.click();
-        Thread.sleep(2000);
-        return new SignInPasswordPage(androidDriver);
-    }
-
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Whats your email address?']")
-    private WebElement whatsYourEmailLabel;
-
-    public boolean isWhatsYourEmailLabelDisplayed() {
-        return whatsYourEmailLabel.isDisplayed();
-    }
-
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Enter Password']")
-    private WebElement createPasswordButton;
-    public void checkAndClickCreatePasswordButton(){
-        if(createPasswordButton.isDisplayed()){
-            createPasswordButton.click();
-        }
-    }
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Next']")
+    private WebElement nextButtonToEnterPassword;
 
     @AndroidFindBy(className = "UIAKeyboard")
     private WebElement keyboard;
+
+    public boolean isUserNameFieldDisplayed() {
+        return usernameFieldInput.isDisplayed();
+    }
+
+    public void clickAndSetUsernameField(String userEmail) throws InterruptedException {
+        usernameField.click();
+        usernameFieldInput.sendKeys(userEmail);
+        Thread.sleep(3000);
+    }
+
+    public SignInPage clickNextButton() throws InterruptedException {
+        nextButtonToEnterPassword.click();
+        Thread.sleep(3000);
+        return new SignInPage(androidDriver);
+    }
+
+    public boolean isWhatsYourEmailLabelDisplayed() {
+        return whatsYourEmailScreenTitle.isDisplayed();
+    }
+
+    public void checkAndClickCreatePasswordButton() {
+        if (nextButtonToEnterPassword.isDisplayed()) {
+            nextButtonToEnterPassword.click();
+        }
+    }
+
     public void hideKeyboardIfVisible() {
         if (keyboard != null) {
             androidDriver.hideKeyboard();

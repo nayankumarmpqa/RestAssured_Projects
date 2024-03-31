@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
 import java.io.File;
@@ -54,7 +55,7 @@ public class WebBrowserTestBase15 {
         return cartPriceSum;
     }
 
-    //@AfterClass
+    @AfterClass
     public void tearDown() {
         androidDriver.quit();
 

@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ea8dd13-b5f9-472b-8e7b-aa182a682648" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Mar_PostRequests/Post_AddObject_Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/src/test/java/Mar_PostRequests/Post_AddObject_Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Basics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Mar_PostRequests/Post_AddObject_Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Mar_PostRequests/Post_AddObject_Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Put_Requests/Put_MyPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/../TestMavenProject/target/test-classes/Put_Requests/Put_MyPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

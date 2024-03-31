@@ -22,13 +22,13 @@ public class Wflash1 extends WFlashBeforeEachTestAndroid {
 
         WhatsYourEmailPage whatsYourEmailPage = new WhatsYourEmailPage(androidDriver);
         whatsYourEmailPage.clickAndSetUsernameField(un);
-        whatsYourEmailPage.clickEnterPasswordButton();
+        whatsYourEmailPage.clickNextButton();
 
-        SignInPasswordPage signInPasswordPage = new SignInPasswordPage(androidDriver);
+        SignInPage signInPage = new SignInPage(androidDriver);
 
-        signInPasswordPage.clickPasswordField();
-        signInPasswordPage.setInputPassword(pw);
-        signInPasswordPage.clickSignInButton();
+        signInPage.clickPasswordField();
+        signInPage.setInputPassword(pw);
+        signInPage.clickSignInButton();
 
         HomeTabPage homeTabPage = new HomeTabPage(androidDriver);
         homeTabPage.clickProfileTabNavButton();

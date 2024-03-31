@@ -42,7 +42,7 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         uiAutomator2Options.setDeviceName(androidDeviceName); // uiAutomator2Options.setDeviceName("Pixel7API33");
 
         //uiAutomator2Options.setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\AppiumPOMProject\\src\\test\\java\\resources\\app-debug 2301.apk");
-        uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\app-debug 2301.apk");
+        uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\app-debug 3001.apk");
 
         uiAutomator2Options.autoGrantPermissions();
 

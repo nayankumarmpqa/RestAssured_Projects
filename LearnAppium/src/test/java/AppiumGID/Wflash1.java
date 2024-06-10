@@ -57,6 +57,7 @@ public class Wflash1 extends WFlashBeforeEachTest {
         androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Log out']")).click();
 
         Thread.sleep(7000);
+        //
 
 
 //        androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();

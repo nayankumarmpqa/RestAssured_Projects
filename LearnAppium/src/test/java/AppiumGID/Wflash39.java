@@ -1,6 +1,8 @@
 package AppiumGID;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.TouchAction;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
@@ -19,44 +21,38 @@ public class Wflash39 extends WFlash39BaseClassFile {
         // xpath , id,className, accessibilityId, androidUIAutomator
 
         //androidDriver.findElement(By.className("android.widget.Button")).click(); // Let's Go button
-        androidDriver.findElement(By.xpath("//android.view.View[@index=3]")).click();
+        androidDriver.findElement(By.xpath("//android.view.View[@index=1]")).click();
+
         //WebElement webElementUserId = androidDriver.findElements(AppiumBy.className("android.widget.EditText")).get(0);
-       androidDriver.findElement(By.className("android.widget.EditText")).click(); // Username Input field
-//androidDriver.findElement(By.xpath("//android.widget.TextView[@text='username']")).click();
-        Thread.sleep(7000);
-        // webElementUserId.click();
-       // webElementUserId.sendKeys(un);
+        androidDriver.findElement(By.className("android.widget.EditText")).click(); // Username Input field
+
         androidDriver.findElement(By.className("android.widget.EditText")).sendKeys(un); // Sending username
-        androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Enter Password']")).click(); // Enter Password Button
+
+        androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Next']")).click();
+
+        androidDriver.findElement(By.xpath("//android.widget.EditText[@index='4']")).sendKeys(pw); // sending password
+
+        androidDriver.hideKeyboard();
 
         Thread.sleep(2000);
-
-        androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.EditText/android.view.View")).click();
-        Thread.sleep(2000);
-        WebElement l = androidDriver.findElement(By.xpath("//android.view.View/android.widget.EditText"));
-        l.click();
-        Thread.sleep(3000);
-        l.sendKeys(pw); // sending password
-
-        Thread.sleep(2000);
-        WebElement webElementSignInButton =androidDriver.findElement(By.xpath("//android.view.View/android.view.View/android.view.View/android.widget.Button"));
-        webElementSignInButton.click();
-
+        androidDriver.findElement(By.xpath("//android.view.View[@index='6']")).click();
         Thread.sleep(5000);
 
+        TouchAction touchAction = new TouchAction(androidDriver);
+        touchAction.tap(PointOption.point(900, 2220)).perform();
+        Thread.sleep(2000);
+        touchAction.tap(PointOption.point(900, 2220)).perform();
 
         androidDriver.findElement(AppiumBy.accessibilityId("Profile")).click();
-        //androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[4]/android.widget.TextView")).click();
+        touchAction.tap(PointOption.point(900, 2220)).perform();
+        Thread.sleep(2000);
+
         androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Your information']")).click();
 
-        //androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.ScrollView/android.view.View[8]/android.widget.TextView")).click();
-        androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Log out']")).click();
-        Thread.sleep(2000);
-        //androidDriver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.View/android.view.View/android.view.View/android.view.View[2]/android.widget.Button")).click();
         androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Log out']")).click();
 
-        Thread.sleep(7000);
-        //
+        androidDriver.findElement(By.xpath("//android.widget.TextView[@text='Log out']")).click();
+
 
 
 //        androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
@@ -78,11 +74,12 @@ public class Wflash39 extends WFlash39BaseClassFile {
     public Object[][] dpMethod(){
         return new Object[][] {
                 {"nayan.kumar.ext+187am2@whistle.com", "T3stf1rst"},
-                {"nayan.kumar.ext+am6-2@whistle.com", "T3stf1rst1"},
-                {"nayan.kumar.ext+w04w@whistle.com", "T3stf1rst2"},
-                {"nayan.kumar.ext+15aug@whistle.com", "T3stf1rst2"},
-                {"nayan.kumar.ext+fm@whistle.com", "T3stf1rst"},
                 {"nkorth@outlook.com", "Whistle1"}
+//                {"nayan.kumar.ext+am6-2@whistle.com", "T3stf1rst1"},
+//                {"nayan.kumar.ext+w04w@whistle.com", "T3stf1rst2"},
+//                {"nayan.kumar.ext+15aug@whistle.com", "T3stf1rst2"},
+//                {"nayan.kumar.ext+fm@whistle.com", "T3stf1rst"},
+//
         };
     }
 }

@@ -62,25 +62,7 @@
       <recent name="AppiumGID" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WebBrowserTest15.fillForm">
-    <configuration name="ScrollEcommerce12.fillForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="LearnAppium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AppiumGID.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AppiumGID" />
-      <option name="MAIN_CLASS_NAME" value="AppiumGID.ScrollEcommerce12" />
-      <option name="METHOD_NAME" value="fillForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Wflash39">
     <configuration name="TotalCheckEcommerce14" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LearnAppium" />
       <extension name="coverage">
@@ -151,20 +133,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Wflash39" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LearnAppium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AppiumGID.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AppiumGID" />
+      <option name="MAIN_CLASS_NAME" value="AppiumGID.Wflash39" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="TestNG.Wflash39" />
       <item itemvalue="TestNG.TotalCheckEcommerce14" />
       <item itemvalue="TestNG.WebBrowserTest15" />
       <item itemvalue="TestNG.WebBrowserTest15.fillForm" />
       <item itemvalue="TestNG.TotalCheckEcommerce14.fillForm" />
-      <item itemvalue="TestNG.ScrollEcommerce12.fillForm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Wflash39" />
         <item itemvalue="TestNG.WebBrowserTest15.fillForm" />
         <item itemvalue="TestNG.TotalCheckEcommerce14" />
         <item itemvalue="TestNG.TotalCheckEcommerce14.fillForm" />
         <item itemvalue="TestNG.WebBrowserTest15" />
-        <item itemvalue="TestNG.ScrollEcommerce12.fillForm" />
       </list>
     </recent_temporary>
   </component>

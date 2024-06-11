@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5425de45-199b-491f-a2a4-64af1ca2a9b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/WFlash39BaseClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/WFlash39BaseClassFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppiumGID/Wflash39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppiumGID/Wflash39.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Hp/Documents/IntelliJ Projects/LearnAppium",
+    "last_opened_file_path": "C:/Users/Hp/Documents/IntelliJ Projects/LearnAppium/src/test/java/resources",
     "project.structure.last.edited": "Facets",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
@@ -50,8 +52,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Hp\Documents\IntelliJ Projects\LearnAppium" />
       <recent name="C:\Users\Hp\Documents\IntelliJ Projects\LearnAppium\src\test\java\resources" />
+      <recent name="C:\Users\Hp\Documents\IntelliJ Projects\LearnAppium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Hp\Documents\IntelliJ Projects\LearnAppium\src\test\java\resources" />

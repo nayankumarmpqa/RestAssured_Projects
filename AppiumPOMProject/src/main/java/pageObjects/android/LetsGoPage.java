@@ -1,17 +1,23 @@
 package pageObjects.android;
 
+import androidActionsUtils.AndroidActions;
+import com.google.common.collect.ImmutableMap;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.ImmutableCapabilities;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.PrimitiveIterator;
 
-public class LetsGoPage {
+public class LetsGoPage extends AndroidActions {
     AndroidDriver androidDriver;
 
-    public LetsGoPage(AndroidDriver androidDriver) {
+    public LetsGoPage(AndroidDriver androidDriver){
+        super(androidDriver);
         this.androidDriver = androidDriver;
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }
@@ -64,4 +70,9 @@ public class LetsGoPage {
         return imageOfDog.isDisplayed();
     }*/
 
+    public void setActivityToLaunchScreen(){
+    Activity activity = new Activity("com.whistle.bolt.flash","com.whistle.flash.MainActivity");
+        ((JavascriptExecutor)androidDriver).executeScript( "mobile: startActivity", ImmutableMap.of("intent","com.whistle.bolt.flash/com.whistle.flash.MainActivity"));
+
+    }
 }

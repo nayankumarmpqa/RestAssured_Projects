@@ -1,5 +1,7 @@
 package GroupID;
 
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageObjects.android.*;
@@ -49,6 +51,11 @@ public class FlashObjectOptimised extends WFlashBeforeEachTestAndroid {
         signInPage.setInputPassword(pw);
         HomeTabPage homeTabPage = signInPage.clickSignInButton(); // catching the next class object for further use
 
+        homeTabPage.clickDoThisLaterButton();
+        homeTabPage.pressByCoordinates();
+        homeTabPage.pressByCoordinates();
+        homeTabPage.pressByCoordinates();
+
         //HomeTabPage homeTabPage = new HomeTabPage(androidDriver);
         ProfileTabPage profileTabPage = homeTabPage.clickProfileTabNavButton(); // catching the next class object for further use
 
@@ -63,16 +70,16 @@ public class FlashObjectOptimised extends WFlashBeforeEachTestAndroid {
 
         //tearDown(); will be automatically invoked as @After class method in parent class
     }
-
+/*@BeforeMethod
+public void resetToLaunchScreen(){
+letsGoPage.setActivityToLaunchScreen();
+}*/
 
     @DataProvider (name = "data-provider")
     public Object[][] dpMethod(){
         return new Object[][] {
-                {"nayan.kumar.ext+187am2@whistle.com", "T3stf1rst"},
-                {"nayan.kumar.ext+am6-2@whistle.com", "T3stf1rst1"},
-                {"nayan.kumar.ext+w04w@whistle.com", "T3stf1rst3"},
-                {"nayan.kumar.ext+15aug@whistle.com", "T3stf1rst2"},
-                {"nayan.kumar.ext+fm@whistle.com", "T3stf1rst"},
+                //{"nayan.kumar.ext+187am2@whistle.com", "T3stf1rst"}
+                {"nayan.kumar+15aug@whistle.com", "T3stf1rst"},
                 {"nkorth@outlook.com", "Whistle1"}
         };
     }

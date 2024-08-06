@@ -1,5 +1,6 @@
 package pageObjects.android;
 
+import io.appium.java_client.HidesKeyboard;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
@@ -12,7 +13,8 @@ public class SignInPage {
         this.androidDriver = androidDriver;
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }
-
+    @AndroidFindBy(className = "UIAKeyboard")
+    private WebElement keyboard;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Sign In']")
     private WebElement signInScreenTitle;
 
@@ -22,7 +24,8 @@ public class SignInPage {
    /* @AndroidFindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.widget.EditText/android.view.View")
     private WebElement passwordField;*/
 
-    @AndroidFindBy(xpath = "//android.widget.EditText[@index='5']")
+    /*@AndroidFindBy(xpath = "//android.view.View[@Index='2']")*/
+    @AndroidFindBy(className = "android.widget.EditText")
     private WebElement inputPasswordField;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Sign in']")
@@ -48,6 +51,7 @@ public class SignInPage {
 
     public void clickPasswordField() throws InterruptedException {
         inputPasswordField.click();
+        System.out.println("Clicked inside password");
         Thread.sleep(2000);
     }
 
@@ -56,6 +60,11 @@ public class SignInPage {
         Thread.sleep(3000);*/
         inputPasswordField.sendKeys(password);
         Thread.sleep(2000);
+
+        if (keyboard != null) {
+            androidDriver.hideKeyboard();
+        }
+
     }
 
     public HomeTabPage clickSignInButton() throws InterruptedException {

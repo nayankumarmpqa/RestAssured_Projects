@@ -1,10 +1,15 @@
 package pageObjects.android;
 
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+
+import static io.appium.java_client.touch.WaitOptions.waitOptions;
+import static io.appium.java_client.touch.offset.PointOption.point;
+import static java.time.Duration.ofSeconds;
 
 public class HomeTabPage {
 AndroidDriver androidDriver;
@@ -20,6 +25,22 @@ AndroidDriver androidDriver;
     public ProfileTabPage clickProfileTabNavButton(){
         profileTabNavButton.click();
          return new ProfileTabPage(androidDriver);
+    }
+
+    @AndroidFindBy(className = "android.widget.Button")
+    private WebElement doThisLaterButton;
+
+    public void clickDoThisLaterButton(){
+        doThisLaterButton.click();
+    }
+
+
+    public void pressByCoordinates () {
+        new TouchAction(androidDriver)
+                .press(point(900,2050))
+                .waitAction(waitOptions(ofSeconds(1)))
+                .release()
+                .perform();
     }
 
 }

@@ -7,16 +7,12 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/Hp/Documents/IntelliJ Projects/AppiumPOMProject">
         <classes>
-            <class name="GroupID.FlashObjectOptimised">
+            <class name="GroupID.FlashTestClass">
                 <methods>
                     <include name="AppiumTest1"/>
                 </methods>
             </class>
-            <!--<class name="GroupID.Wflash1">
-                <methods>
-                    <include name="AppiumTest1"/>
-                </methods>
-            </class>-->
+
         </classes>
     </test>
 </suite>

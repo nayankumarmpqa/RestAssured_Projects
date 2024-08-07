@@ -1,5 +1,6 @@
 package pageObjects.android;
 
+import androidActionsUtils.AndroidActions;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -11,9 +12,10 @@ import static io.appium.java_client.touch.WaitOptions.waitOptions;
 import static io.appium.java_client.touch.offset.PointOption.point;
 import static java.time.Duration.ofSeconds;
 
-public class HomeTabPage {
+public class HomeTabPage extends AndroidActions {
 AndroidDriver androidDriver;
     public HomeTabPage(AndroidDriver androidDriver){
+        super(androidDriver);
         this.androidDriver = androidDriver;
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }

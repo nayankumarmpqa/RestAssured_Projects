@@ -1,16 +1,22 @@
 package testBaseUtils;
 
+import androidActionsUtils.AppiumCommonActions;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import io.appium.java_client.AppiumDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class Listeners implements ITestListener {
+import java.io.IOException;
 
-    ExtentReports extentReports = ExtentReportNG.getExtentReportsObject(); // calling static method to get the object
+public class Listeners extends AppiumCommonActions implements ITestListener{
+
     ExtentTest test;
+    AppiumDriver appiumDriver;
+    ExtentReports extentReports = ExtentReportNG.getExtentReportsObject(); // calling static method to get the object
+
     @Override
     public void onTestStart(ITestResult result) {
         //ITestListener.super.onTestStart(result);
@@ -32,6 +38,24 @@ public class Listeners implements ITestListener {
 
         test.log(Status.FAIL,"My test Failed");
         test.fail(result.getThrowable()); //  give the error message
+
+
+        //screenshot code
+        test.fail(result.getThrowable());
+        try {
+            appiumDriver = (AppiumDriver) result.getTestClass().getRealClass().getField("androidDriver")
+                    .get(result.getInstance());
+
+        } catch (Exception e1) {
+            // TODO Auto-generated catch block
+            e1.printStackTrace();
+        }
+        try {
+            test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName(),appiumDriver), result.getMethod().getMethodName());
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
     }
 
     @Override

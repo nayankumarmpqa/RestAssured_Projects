@@ -6,6 +6,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import pageObjects.android.LetsGoPage;
 
@@ -23,8 +24,7 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
     public LetsGoPage letsGoPage;
 
 
-
-    @BeforeClass
+    @BeforeClass(alwaysRun=true)
     public void configureAppium() throws IOException {
 
         // Reading properties from file
@@ -56,8 +56,6 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         letsGoPage = new LetsGoPage(androidDriver); // created the first screen object inside before class method
     }
 
-
-
     private void startAppiumServer() {
         appiumDriverLocalService = new AppiumServiceBuilder()
                 .withAppiumJS(new File("C:\\Users\\Hp\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
@@ -67,10 +65,9 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         appiumDriverLocalService.start();
     }
 
-    // @AfterClass
+    @AfterClass(alwaysRun=true)
     public void tearDown() {
         androidDriver.quit();
-
         appiumDriverLocalService.stop(); //To stop server
     }
 }

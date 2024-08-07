@@ -7,7 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 
-public class AndroidActions extends AppiumCommonActions{
+public class AndroidActions extends AppiumCommonActions {
 
     AndroidDriver androidDriver;
 
@@ -60,13 +60,13 @@ public class AndroidActions extends AppiumCommonActions{
     }
 
 
-    public void scrollToTextGesture(String text){
+    public void scrollToTextGesture(String text) {
 
         androidDriver.findElement(
                 //androidUIAutomator by google method to scroll
                 (AppiumBy.androidUIAutomator
                         (
-                                "new UiScrollable(new UiSelector()).scrollIntoView(text(\""+text+"\"));"
+                                "new UiScrollable(new UiSelector()).scrollIntoView(text(\"" + text + "\"));"
                         )));
     }
 

@@ -80,8 +80,8 @@ public class Listeners extends AppiumCommonActions implements ITestListener{
 
     @Override
     public void onFinish(ITestContext context) {
-
         //ITestListener.super.onFinish(context);
         extentReports.flush(); // get the report ready
+
     }
 }

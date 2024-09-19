@@ -13,21 +13,21 @@ import java.io.IOException;
 
 public class Listeners extends AppiumCommonActions implements ITestListener{
 
-    ExtentTest test;
+    ExtentTest extentTest;
+    ExtentReports extentReportsObject = ExtentReportNG.getExtentReportsObject(); // calling static method to get the object
     AppiumDriver appiumDriver;
-    ExtentReports extentReports = ExtentReportNG.getExtentReportsObject(); // calling static method to get the object
 
     @Override
     public void onTestStart(ITestResult result) {
         //ITestListener.super.onTestStart(result);
-        test = extentReports.createTest(result.getMethod().getMethodName() + " Creating a Test for Extent Report");
+        extentTest = extentReportsObject.createTest(result.getMethod().getMethodName() + " Creating a Test for Extent Report");
         // createTest method is used to show method in report
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
        // ITestListener.super.onTestSuccess(result);
-        test.log(Status.PASS,"My test Passed");
+        extentTest.log(Status.PASS,"My test Passed");
         // OR we can use
         // test.pass(result.getThrowable());
     }
@@ -36,12 +36,12 @@ public class Listeners extends AppiumCommonActions implements ITestListener{
     public void onTestFailure(ITestResult result) {
        // ITestListener.super.onTestFailure(result);
 
-        test.log(Status.FAIL,"My test Failed");
-        test.fail(result.getThrowable()); //  give the error message
+        extentTest.log(Status.FAIL,"My test Failed");
+        extentTest.fail(result.getThrowable()); //  give the error message
 
 
         //screenshot code
-        test.fail(result.getThrowable());
+        extentTest.fail(result.getThrowable());
         try {
             appiumDriver = (AppiumDriver) result.getTestClass().getRealClass().getField("androidDriver")
                     .get(result.getInstance());
@@ -50,8 +50,10 @@ public class Listeners extends AppiumCommonActions implements ITestListener{
             // TODO Auto-generated catch block
             e1.printStackTrace();
         }
+
+
         try {
-            test.addScreenCaptureFromPath(getScreenshotPath(result.getMethod().getMethodName(),appiumDriver), result.getMethod().getMethodName());
+            extentTest.addScreenCaptureFromPath(takeScreenshotAndGetPath(result.getMethod().getMethodName(),appiumDriver), result.getMethod().getMethodName());
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
@@ -81,7 +83,7 @@ public class Listeners extends AppiumCommonActions implements ITestListener{
     @Override
     public void onFinish(ITestContext context) {
         //ITestListener.super.onFinish(context);
-        extentReports.flush(); // get the report ready
+        extentReportsObject.flush(); // get the report ready
 
     }
 }

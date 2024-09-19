@@ -5,23 +5,21 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ExtentReportNG {
 
-    static ExtentReports extentReports; // created static ti access with class name in the listener class > on Test start
+    static ExtentReports extentReportsObject; // created it static to access with class name in the listener class > on Test start
 
     public static ExtentReports getExtentReportsObject() {
-
         // Two important classes for reporting ExtentSparkReporter, ExtentReports
-
         String path = System.getProperty("user.dir")+"//src//test//java//Results_resources//index.html";
         ExtentSparkReporter extentSparkReporter = new ExtentSparkReporter(path);
         extentSparkReporter.config().setReportName("whistle Automation Results");
         extentSparkReporter.config().setDocumentTitle("Whistle Test results page title");
 
-        extentReports = new ExtentReports();
-        extentReports.attachReporter(extentSparkReporter);
+        extentReportsObject = new ExtentReports();
 
-        extentReports.setSystemInfo("Tester", "Nayan Kumar");
+        extentReportsObject.attachReporter(extentSparkReporter);
+        extentReportsObject.setSystemInfo("Tester", "Nayan Kumar");
 
-        return extentReports;
+        return extentReportsObject;
 
     }
 }

@@ -31,12 +31,13 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\configResources\\data.properties");
         prop.load(fis);
-        String iPAddress = prop.getProperty("ipAddress");
+        String ipAddress = System.getProperty("ipAddress")!=null? System.getProperty("ipAddress") : prop.getProperty("ipAddress");
+        //String iPAddress = prop.getProperty("ipAddress");
         String port =prop.getProperty("port");
         String androidDeviceName = prop.getProperty("androidDeviceName");
 
         //start the server programmatically
-        appiumDriverLocalService = startAppiumServer(iPAddress, port );
+        appiumDriverLocalService = startAppiumServer(ipAddress, port );
 
         uiAutomator2Options = new UiAutomator2Options();
         uiAutomator2Options.setDeviceName(androidDeviceName); // uiAutomator2Options.setDeviceName("Pixel7API33");

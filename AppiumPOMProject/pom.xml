@@ -48,8 +48,6 @@
       <scope>test</scope>
     </dependency>
 
-
-
     <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
@@ -91,7 +89,51 @@
       <scope>provided</scope>
     </dependency>
 
-
-
   </dependencies>
+
+  <profiles>
+    <profile>
+      <id>Regression</id>
+    <build>
+      <pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.5.0</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>testNGSuitesXML/testng.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+        </plugins>
+      </pluginManagement>
+    </build>
+    </profile>
+
+
+    <profile>
+      <id>Smoke</id>
+    <build>
+      <pluginManagement>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>3.5.0</version>
+            <configuration>
+              <suiteXmlFiles>
+                <suiteXmlFile>testNGSuitesXML/testng_Smoke.xml</suiteXmlFile>
+              </suiteXmlFiles>
+            </configuration>
+          </plugin>
+        </plugins>
+      </pluginManagement>
+
+    </build>
+    </profile>
+
+
+  </profiles>
 </project>

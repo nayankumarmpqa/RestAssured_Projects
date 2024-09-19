@@ -465,3 +465,18 @@
 22:07:11.811 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 22:07:17.561 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/54b3aef778bc6682a70674cbac5b2632674ee2de
 22:07:17.561 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:53:10.566 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 
+18:53:10.571 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 9.2.2
+18:53:10.877 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:53:10.878 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Hp\Documents\IntelliJ Projects\AppiumPOMProject\browserstack.yml
+18:53:10.951 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+18:53:11.430 [main] INFO  c.browserstack.BrowserStackJavaAgent - Using app: [bs://5ce16645840a4f24520a60dbbc8337758875f0b1]
+18:53:11.430 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+18:53:14.531 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+18:53:15.917 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+18:53:22.494 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+18:57:18.608 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/h4ggy55vfm6mwiuvwhsjwbxq4wgyq45g1gprdgma to view build report, insights, and many more debugging information all at one place!
+
+18:57:18.609 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+18:57:23.681 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://app-automate.browserstack.com/dashboard/v2/builds/bf7de1e41a499957c5ab54479b53631e1b9806ed
+18:57:23.681 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO

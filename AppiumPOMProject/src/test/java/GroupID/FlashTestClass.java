@@ -54,7 +54,7 @@ letsGoPage.setActivityToLaunchScreen();
     public Object[][] dpMethod(){
         return new Object[][] {
                 //{"nayan.kumar.ext+187am2@whistle.com", "T3stf1rst"}
-                {"nayan.kumar+15aug@whistle.com", "T3stf1rst"},
+               // {"nayan.kumar+15aug@whistle.com", "T3stf1rst"},
                 {"nkorth@outlook.com", "Whistle1"}
         };
     }

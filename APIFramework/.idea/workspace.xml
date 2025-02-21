@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3ea8dd13-b5f9-472b-8e7b-aa182a682648" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaPractice/out/production/JavaPractice/PathAndFiles/FileReDwRITErUNNER.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumPOMProject/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumPOMProject/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumPOMProject/src/test/java/GroupID/FlashTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumPOMProject/src/test/java/GroupID/FlashTestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumPOMProject/src/test/java/testBaseUtils/WFlashBeforeEachTestAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumPOMProject/src/test/java/testBaseUtils/WFlashBeforeEachTestAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumPOMProject/target/test-classes/GroupID/FlashTestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumPOMProject/target/test-classes/GroupID/FlashTestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumPOMProject/target/test-classes/testBaseUtils/WFlashBeforeEachTestAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumPOMProject/target/test-classes/testBaseUtils/WFlashBeforeEachTestAndroid.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

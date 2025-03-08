@@ -6,12 +6,10 @@ import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
-import org.openqa.selenium.ImmutableCapabilities;
+import org.apache.http.conn.util.PublicSuffixList;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-
-import java.util.PrimitiveIterator;
 
 public class LetsGoPage extends AndroidActions {
     AndroidDriver androidDriver;
@@ -22,12 +20,12 @@ public class LetsGoPage extends AndroidActions {
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }
 
-    @AndroidFindBy(id = "Whistle Logo Name")
+    @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc=\"Whistle Logo Name\"]")
     private WebElement logo;
     @AndroidFindBy(xpath = "//android.view.View[@index=1]")
     private WebElement letsGoButton;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Family or friend?']")
-    private WebElement familyOrFriend;
+    private WebElement familyOrFriendLink;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Check your messages for an invite link']")
     private WebElement checkYourMessageDialog;
 
@@ -41,18 +39,36 @@ public class LetsGoPage extends AndroidActions {
         return logo.isDisplayed();
     }
 
+    //--------------------------
+    // Methods
+    public boolean isLogoDisplayed() {
+        return logo.isDisplayed();
+    }
+
+    public boolean isLetsGoButtonDisplayed() {
+        return letsGoButton.isDisplayed();
+    }
+
+    public boolean isLetsGoButtonEnabled() {
+        return letsGoButton.isEnabled();
+    }
+
+    public boolean isFamilyOrFriendTextDisplayed() {
+        return familyOrFriendLink.isDisplayed();
+    }
     public WhatsYourEmailPage letsGoButtonClick() {
         letsGoButton.click();
-        //also
+        //also return next screen/page object
         return new WhatsYourEmailPage(androidDriver);
     }
 
+    //-------------------------------
     public boolean isFamilyOrFriendDisplayed() {
-        return familyOrFriend.isDisplayed();
+        return familyOrFriendLink.isDisplayed();
     }
 
     public void clickFamilyOrFriendLink() {
-        familyOrFriend.click();
+        familyOrFriendLink.click();
     }
 
     public void getDialogTitle() {
@@ -63,16 +79,10 @@ public class LetsGoPage extends AndroidActions {
         gotItButton.click();
     }
 
-    /*@AndroidFindBy(id = "Image of a dog")
-    private WebElement imageOfDog;
+    public void setActivityToLaunchScreen() {
+        Activity activity = new Activity("com.whistle.bolt.flash", "com.whistle.flash.MainActivity");
+        ((JavascriptExecutor) androidDriver).executeScript("mobile: startActivity", ImmutableMap.of("intent", "com.whistle.bolt.flash/com.whistle.flash.MainActivity"));
 
-    public boolean isDogImageDisplayed() {
-        return imageOfDog.isDisplayed();
-    }*/
-
-    public void setActivityToLaunchScreen(){
-    Activity activity = new Activity("com.whistle.bolt.flash","com.whistle.flash.MainActivity");
-        ((JavascriptExecutor)androidDriver).executeScript( "mobile: startActivity", ImmutableMap.of("intent","com.whistle.bolt.flash/com.whistle.flash.MainActivity"));
 
     }
 }

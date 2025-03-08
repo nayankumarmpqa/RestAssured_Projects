@@ -16,7 +16,7 @@ public class WhatsYourEmailPage extends AndroidActions {
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Whats your email address?']")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"What’s your email address?\"]")
     private WebElement whatsYourEmailScreenTitle;
 
     @AndroidFindBy(className = "android.widget.EditText")

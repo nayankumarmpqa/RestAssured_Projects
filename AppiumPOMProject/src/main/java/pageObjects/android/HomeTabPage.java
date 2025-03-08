@@ -21,7 +21,7 @@ AndroidDriver androidDriver;
     }
     // androidDriver.findElement(By.xpath("//android.view.View[@index=3]")).click();
 
-    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Profile']")
+    @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Profile\"]")
     private WebElement profileTabNavButton;
 
     public ProfileTabPage clickProfileTabNavButton(){
@@ -39,7 +39,7 @@ AndroidDriver androidDriver;
 
     public void pressByCoordinates () {
         new TouchAction(androidDriver)
-                .press(point(900,2050))
+                .press(point(950,2300))
                 .waitAction(waitOptions(ofSeconds(1)))
                 .release()
                 .perform();

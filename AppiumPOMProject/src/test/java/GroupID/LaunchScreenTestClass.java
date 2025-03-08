@@ -79,15 +79,17 @@ letsGoPage.setActivityToLaunchScreen();
         // Verify navigation (assuming next screen has an element with ID "nextScreenElementId")
         Assert.assertTrue(whatsYourEmailPage.isWhatsYourEmailLabelDisplayed(), "Navigation failed.");
 
-        // Press the back button twice to minimize key board and nav back to launch screen
-        androidDriver.pressKey(new KeyEvent(AndroidKey.BACK));
+        // Press the back button
         androidDriver.pressKey(new KeyEvent(AndroidKey.BACK));
     }
 
+
     @Test(priority = 3)
     public void testBackButtonBehavior() {
-        // Press the back button
+        // Press the back button twice
         androidDriver.pressKey(new KeyEvent(AndroidKey.BACK));
+        androidDriver.pressKey(new KeyEvent(AndroidKey.BACK));
+
 
         // Verify that the app is minimized
         boolean isAppInBackground = androidDriver.queryAppState("com.whistle.whistle.beta") == ApplicationState.RUNNING_IN_BACKGROUND;

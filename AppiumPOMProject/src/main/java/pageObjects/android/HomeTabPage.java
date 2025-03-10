@@ -5,8 +5,11 @@ import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+
+import java.util.List;
 
 import static io.appium.java_client.touch.WaitOptions.waitOptions;
 import static io.appium.java_client.touch.offset.PointOption.point;
@@ -33,6 +36,7 @@ AndroidDriver androidDriver;
     private WebElement doThisLaterButton;
 
     public void clickDoThisLaterButton(){
+        waitForElementToBeVisible(20,doThisLaterButton);
         doThisLaterButton.click();
     }
 
@@ -44,5 +48,15 @@ AndroidDriver androidDriver;
                 .release()
                 .perform();
     }
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"Location\"]")
+    private WebElement locationTabButton;
+
+    public boolean isLocationTabPresent() {
+        List<WebElement> elements = androidDriver.findElements(By.xpath("//android.widget.TextView[@text='Location']"));
+        return !elements.isEmpty(); // Returns false if not found
+    }
+
+
 
 }

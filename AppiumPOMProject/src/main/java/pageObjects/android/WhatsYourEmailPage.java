@@ -35,12 +35,14 @@ public class WhatsYourEmailPage extends AndroidActions {
     }
 
     public void clickAndSetUsernameField(String userEmail) throws InterruptedException {
+        waitForElementToBeVisible(10,usernameField);
         usernameField.click();
         usernameFieldInput.sendKeys(userEmail);
         Thread.sleep(3000);
     }
 
     public SignInPage clickNextButton() throws InterruptedException {
+        waitForElementToBeVisible(10,nextButtonToEnterPassword);
         nextButtonToEnterPassword.click();
         Thread.sleep(3000);
         return new SignInPage(androidDriver);

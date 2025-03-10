@@ -52,14 +52,14 @@ public class SignInPage extends AndroidActions {
     }
 
     public void clickPasswordField() throws InterruptedException {
+        waitForElementToBeVisible(10,inputPasswordField);
         inputPasswordField.click();
         System.out.println("Clicked inside password");
         Thread.sleep(2000);
     }
 
     public void setInputPassword(String password) throws InterruptedException {
-        /*inputPasswordField.click();
-        Thread.sleep(3000);*/
+        waitForElementToBeVisible(10,inputPasswordField);
         inputPasswordField.sendKeys(password);
         Thread.sleep(2000);
 
@@ -70,8 +70,9 @@ public class SignInPage extends AndroidActions {
     }
 
     public HomeTabPage clickSignInButton() throws InterruptedException {
+        waitForElementToBeVisible(10,signInButton);
         signInButton.click();
-        Thread.sleep(5000);
+        Thread.sleep(10000);
         return new HomeTabPage(androidDriver);
     }
 
@@ -80,6 +81,7 @@ public class SignInPage extends AndroidActions {
         Thread.sleep(5000);
         return new ForgotPasswordPage(androidDriver);
     }
+
 
 
 }

@@ -2,12 +2,15 @@ package testBaseUtils;
 
 import androidActionsUtils.AppiumCommonActions;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.Activity;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.options.UiAutomator2Options;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import pageObjects.android.LetsGoPage;
 
 import java.io.File;
@@ -15,6 +18,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Properties;
 
 public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
@@ -42,9 +47,8 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         uiAutomator2Options = new UiAutomator2Options();
         uiAutomator2Options.setDeviceName(androidDeviceName); // uiAutomator2Options.setDeviceName("Pixel7API33");
 
-        //uiAutomator2Options.setApp("C:\\Users\\Hp\\Documents\\IntelliJ Projects\\AppiumPOMProject\\src\\test\\java\\resources\\app-debug 2301.apk");
         //uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\app-beta-release 50.apk");
-        uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\build74.apk");
+        uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\Flash v6.0.2.0 (80).apk");
 
         uiAutomator2Options.autoGrantPermissions();
 
@@ -67,9 +71,14 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         appiumDriverLocalService.start();
     }
 
-    @AfterClass(alwaysRun=true)
+    @AfterClass(alwaysRun = true)
     public void tearDown() {
-        androidDriver.quit();
-        appiumDriverLocalService.stop(); //To stop server
+        // Quit driver and stop Appium server after all tests
+        if (androidDriver != null) {
+            androidDriver.quit();
+        }
+        if (appiumDriverLocalService != null) {
+            appiumDriverLocalService.stop();
+        }
     }
 }

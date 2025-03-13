@@ -17,12 +17,12 @@ import static java.time.Duration.ofSeconds;
 
 public class HomeTabPage extends AndroidActions {
 AndroidDriver androidDriver;
-    public HomeTabPage(AndroidDriver androidDriver){
+//Constructor
+public HomeTabPage(AndroidDriver androidDriver){
         super(androidDriver);
         this.androidDriver = androidDriver;
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
     }
-    // androidDriver.findElement(By.xpath("//android.view.View[@index=3]")).click();
 
     @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Profile\"]")
     private WebElement profileTabNavButton;
@@ -40,15 +40,7 @@ AndroidDriver androidDriver;
         doThisLaterButton.click();
     }
 
-
-    public void pressByCoordinates () {
-        new TouchAction(androidDriver)
-                .press(point(950,2300))
-                .waitAction(waitOptions(ofSeconds(1)))
-                .release()
-                .perform();
-    }
-
+    // Location Navigation Button (Visible for GPS Users)
     @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"Location\"]")
     private WebElement locationTabButton;
 
@@ -57,6 +49,50 @@ AndroidDriver androidDriver;
         return !elements.isEmpty(); // Returns false if not found
     }
 
+    // Pet Profile Name
+    @AndroidFindBy(xpath = "//android.widget.TextView")
+    private WebElement petProfileName;
 
+    // Activity Goal Section
+    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Activity goal')]")
+    private WebElement activityGoalTitle;
+
+    // Health Section
+    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Health')]")
+    private WebElement healthSection;
+
+    // Check-in button
+    @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Check in\"]")
+    private WebElement checkInButton;
+
+
+    // Actions---------------------------------------------
+    public boolean isPetProfileVisible() {
+        return petProfileName.isDisplayed();
+    }
+
+    public boolean isActivityGoalSectionVisible() {
+        return activityGoalTitle.isDisplayed();
+    }
+
+    public boolean isHealthSectionVisible() {
+        return healthSection.isDisplayed();
+    }
+
+    public boolean isCheckInButtonVisible() {
+        return checkInButton.isDisplayed();
+    }
+
+    public void  backFromCheckInScreen() {
+        androidDriver.navigate().back();
+    }
+
+    public void clickCheckInButton() {
+        checkInButton.click();
+    }
+
+    public void navigateToLocationTab() {
+        locationTabButton.click();
+    }
 
 }

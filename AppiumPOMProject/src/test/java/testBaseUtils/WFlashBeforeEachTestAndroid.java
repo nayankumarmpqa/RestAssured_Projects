@@ -31,7 +31,7 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
 
     @BeforeClass(alwaysRun=true)
     public void configureAppium() throws IOException {
-
+        System.out.println("// Configuring app in before class method");
         // Reading properties from file
         Properties prop = new Properties();
         FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\configResources\\data.properties");
@@ -72,7 +72,7 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
     }
 
     @AfterClass(alwaysRun = true)
-    public void tearDown() {
+    public void tearDown() throws InterruptedException {
         // Quit driver and stop Appium server after all tests
         if (androidDriver != null) {
             androidDriver.quit();

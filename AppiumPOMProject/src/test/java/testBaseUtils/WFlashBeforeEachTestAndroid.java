@@ -45,10 +45,12 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         appiumDriverLocalService = startAppiumServer(ipAddress, port );
 
         uiAutomator2Options = new UiAutomator2Options();
-        uiAutomator2Options.setDeviceName(androidDeviceName); // uiAutomator2Options.setDeviceName("Pixel7API33");
+
+        // uiAutomator2Options.setDeviceName("Pixel7API33");
+        uiAutomator2Options.setDeviceName(androidDeviceName);
 
         //uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\app-beta-release 50.apk");
-        uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\Flash v6.0.2.0 (80).apk");
+        uiAutomator2Options.setApp(System.getProperty("user.dir")+"\\src\\test\\java\\resources\\Flash v6.0.2.0 (89).apk");
 
         uiAutomator2Options.autoGrantPermissions();
 
@@ -62,15 +64,6 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         letsGoPage = new LetsGoPage(androidDriver); // created the first screen object inside before class method
     }
 
-    private void startAppiumServer() {
-        appiumDriverLocalService = new AppiumServiceBuilder()
-                .withAppiumJS(new File("C:\\Users\\Hp\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
-                .withIPAddress("127.0.0.1")
-                .usingPort(4723)
-                .build();
-        appiumDriverLocalService.start();
-    }
-
     @AfterClass(alwaysRun = true)
     public void tearDown() throws InterruptedException {
         // Quit driver and stop Appium server after all tests
@@ -81,4 +74,14 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
             appiumDriverLocalService.stop();
         }
     }
+
+    // Below method moveed to AppiumCommonActions class
+   /* private void startAppiumServer() {
+        appiumDriverLocalService = new AppiumServiceBuilder()
+                .withAppiumJS(new File("C:\\Users\\Hp\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
+                .withIPAddress("127.0.0.1")
+                .usingPort(4723)
+                .build();
+        appiumDriverLocalService.start();
+    }*/
 }

@@ -21,7 +21,7 @@ public class AppiumCommonActions {
 
     AppiumDriverLocalService appiumDriverLocalService;
 
-//Appium server start method
+//Appium server start method placed here from TestBase Class
 public AppiumDriverLocalService startAppiumServer(String iPAddress, String port) {
     appiumDriverLocalService = new AppiumServiceBuilder()
             .withAppiumJS(new File("C:\\Users\\Hp\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))

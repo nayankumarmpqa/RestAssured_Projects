@@ -18,10 +18,17 @@ AndroidDriver androidDriver ;
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Your information']")
     private WebElement yourInformationOption;
 
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"Account\"]")
+    private WebElement accountHeading;
+
+
     public YourInformationPage clickYourInformationOption(){
         yourInformationOption.click();
         return new YourInformationPage(androidDriver);
     }
 
+    public boolean isAccountHeadingVisible(){
+        return accountHeading.isDisplayed();
+    }
 
 }

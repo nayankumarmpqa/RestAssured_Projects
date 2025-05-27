@@ -9,7 +9,7 @@
       <class name="GroupID.FlashTestClass">
         <methods>
           <include name="configureAppium"/>
-          <include name="AppiumTest1" invocation-numbers="0 1"/>
+          <include name="AppiumTest1" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- GroupID.FlashTestClass -->

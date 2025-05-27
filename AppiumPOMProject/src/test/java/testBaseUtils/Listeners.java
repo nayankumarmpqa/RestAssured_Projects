@@ -20,6 +20,8 @@ public class Listeners extends AppiumCommonActions implements ITestListener{
     @Override
     public void onTestStart(ITestResult result) {
         //ITestListener.super.onTestStart(result);
+
+        // ExtentTest test = extentReportsObject.createTest("can be My Test method name in test Class");
         extentTest = extentReportsObject.createTest(result.getMethod().getMethodName() + " Creating a Test for Extent Report");
         // createTest method is used to show method in report
     }
@@ -53,7 +55,8 @@ public class Listeners extends AppiumCommonActions implements ITestListener{
 
 
         try {
-            extentTest.addScreenCaptureFromPath(takeScreenshotAndGetPath(result.getMethod().getMethodName(),appiumDriver), result.getMethod().getMethodName());
+            extentTest.addScreenCaptureFromPath(takeScreenshotAndGetPath(result.getMethod().getMethodName(),appiumDriver),
+                    result.getMethod().getMethodName());
         } catch (IOException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

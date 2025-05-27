@@ -12,7 +12,7 @@ import testBaseUtils.WFlashBeforeEachTestAndroid;
 import java.net.MalformedURLException;
 import java.time.Duration;
 
-public class HomeTabTestClass extends WFlashBeforeEachTestAndroid {
+public class HomeTClass extends WFlashBeforeEachTestAndroid {
 
     private HomeTabPage homeTabPage;
 
@@ -21,6 +21,13 @@ public class HomeTabTestClass extends WFlashBeforeEachTestAndroid {
         return new Object[][]{
                 {"GPSUser", "nayan.kumar+29apr@whistle.com", "T3stf1rst"},
                 {"NonGPSUser", "nayan.kumar+17apr@whistle.com", "T3stf1rst"}
+        };
+    }
+
+    @DataProvider(name = "GPSUserProfiles")
+    public Object[][] gpsUserProfiles() {
+        return new Object[][]{
+                {"GPSUser", "nayan.kumar+29apr@whistle.com", "T3stf1rst"}
         };
     }
 
@@ -56,6 +63,93 @@ public class HomeTabTestClass extends WFlashBeforeEachTestAndroid {
             yourInformationPage.clickLogOutOption();
             yourInformationPage.clickLogOutConfirmation();
         }
+    }
+
+    private void loginToApp(String email, String password) throws InterruptedException {
+        System.out.println("🔐 Logging in...");
+        WhatsYourEmailPage whatsYourEmailPage = letsGoPage.letsGoButtonClick();
+        whatsYourEmailPage.clickAndSetUsernameField(email);
+        SignInPage signInPage = whatsYourEmailPage.clickNextButton();
+        signInPage.clickPasswordField();
+        signInPage.setInputPassword(password);
+        homeTabPage = signInPage.clickSignInButton();
+        homeTabPage.clickDoThisLaterButton();
+        homeTabPage.tapTopMiddleByCoordinates();
+    }
+    // UI & Layout Verification
+
+    @Test(dataProvider = "userProfiles", priority = 1)
+    public void TC_01_verifyHomeTabDisplayedAfterLogin(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        Assert.assertTrue(homeTabPage.isHomeTabVisible(), "Home tab not displayed");
+    }
+
+    @Test(dataProvider = "userProfiles", priority = 2)
+    public void TC_02_validatePetProfileDisplayed(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        Assert.assertTrue(homeTabPage.isPetProfileVisible(), "Pet profile not visible");
+    }
+
+    @Test(dataProvider = "GPSUserProfiles", priority = 3)
+    public void TC_03_checkMapWidgetVisible(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        if (userType.equals("GPSUser")) {
+            Assert.assertTrue(homeTabPage.isMapWidgetVisible(), "Map widget not visible1");
+            System.out.println("✅ MapWidget tab found! for GPS user");
+        } else if (userType.equals("NonGPSUser")){
+            Assert.assertFalse(homeTabPage.isMapWidgetVisible(), "Map widget not visible2");
+            System.out.println("✅ MapWidget tab NOT found for NonGPS user.");
+        }
+    }
+
+    @Test(dataProvider = "GPSUserProfiles", priority = 4)
+    public void TC_04_verifyActivityGoalMetrics(String userType, String email, String password) throws InterruptedException {
+        if (!userType.equals("GPSUser")) return; // Skip for Non-GPS users
+        loginToApp(email, password);
+        Assert.assertTrue(homeTabPage.isActivityGoalSectionVisible(), "Activity Goal section not visible");
+    }
+
+
+    @Test(dataProvider = "GPSUserProfiles", priority = 5)
+    public void TC_05_validateHealthSectionMetrics(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        Assert.assertTrue(homeTabPage.isHealthSectionVisible(), "Health Section not visible");
+    }
+
+    @Test(dataProvider = "GPSUserProfiles", priority = 6)
+    public void TC_06_validateJournalSection(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        Assert.assertTrue(homeTabPage.isJournalSectionVisible() && homeTabPage.isThisWeekHeadingVisible(), "Journal Section and This Week Heading not visible");
+    }
+
+    @Test (dataProvider = "GPSUserProfiles", priority = 7)
+    public void TC_07_verifyBottomNavigationBar(String userType, String email, String password) throws InterruptedException{
+        loginToApp(email, password);
+        Assert.assertTrue(homeTabPage.isBottomNavigationBarVisible(), "Bottom Navigation Bar not visible");
+    }
+
+    @Test (dataProvider = "GPSUserProfiles", priority = 8)
+    public void TC_08_verifyFloatingButtonVisible(String userType,String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        Assert.assertTrue(homeTabPage.isCheckInButtonVisible(), "Check-in button not visible");
+}
+
+    // Functional Test Cases
+    @Test (dataProvider = "userProfiles", priority =9)
+    public void TC_09_navigateToPetProfile(String userType,String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        ProfileTabPage profileScreen = homeTabPage.clickProfileTabNavButton();
+        profileScreen.tapTopMiddleByCoordinates();
+        Assert.assertTrue(profileScreen.isAccountHeadingVisible(), "Profile screen not visible");
+    }
+
+
+    @Test (dataProvider = "userProfiles", priority = 10)
+    public void TC_10_openActivityGoalDetails(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        ActivityTabPage activityScreen = homeTabPage.clickActivityWidget();
+        activityScreen.tapTopMiddleByCoordinates();
+        Assert.assertTrue(activityScreen.isSyncActivityRotatingIconDisplayed(), "The Activity screen is not displayed");
     }
 
     @Test(dataProvider = "userProfiles", priority = 0)
@@ -123,15 +217,4 @@ public class HomeTabTestClass extends WFlashBeforeEachTestAndroid {
         }
     }
 
-    private void loginToApp(String email, String password) throws InterruptedException {
-        System.out.println("🔐 Logging in...");
-        WhatsYourEmailPage whatsYourEmailPage = letsGoPage.letsGoButtonClick();
-        whatsYourEmailPage.clickAndSetUsernameField(email);
-        SignInPage signInPage = whatsYourEmailPage.clickNextButton();
-        signInPage.clickPasswordField();
-        signInPage.setInputPassword(password);
-        homeTabPage = signInPage.clickSignInButton();
-        homeTabPage.clickDoThisLaterButton();
-        homeTabPage.tapTopMiddleByCoordinates();
-    }
 }

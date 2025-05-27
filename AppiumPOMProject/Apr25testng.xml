@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testBaseUtils.Listeners">
+        </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/Hp/Documents/IntelliJ Projects/AppiumPOMProject">
+        <classes>
+            <class name="GroupID.HomeTabTestClass">
+                <methods>
+                    <include name="testPetProfileTabs"/>s
+                    <include name="verifyHomeScreenElements"/>
+                    <include name="testCheckInButtonFunctionality"/>
+                    <include name="testNavigationToLocationTab"/>
+                </methods>
+            </class>
+            <class name="GroupID.LaunchScreenTestClass">
+                <methods>
+                    <include name="AppiumTest1"/>
+                    <include name="testAppLaunchAndUIElements"/>
+                    <include name="testNavigationFromLaunchScreen"/>
+                    <include name="testBackButtonBehavior"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

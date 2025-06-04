@@ -5,6 +5,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
@@ -14,9 +15,10 @@ import static io.appium.java_client.touch.offset.PointOption.point;
 import static java.time.Duration.ofSeconds;
 
 public class HomeTabPage extends AndroidActions {
-AndroidDriver androidDriver;
-//Constructor
-public HomeTabPage(AndroidDriver androidDriver){
+    AndroidDriver androidDriver;
+
+    //Constructor
+    public HomeTabPage(AndroidDriver androidDriver) {
         super(androidDriver);
         this.androidDriver = androidDriver;
         PageFactory.initElements(new AppiumFieldDecorator(androidDriver), this);
@@ -28,16 +30,16 @@ public HomeTabPage(AndroidDriver androidDriver){
     @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Profile\"]")
     private WebElement profileTabNavButton;
 
-    public ProfileTabPage clickProfileTabNavButton(){
+    public ProfileTabPage clickProfileTabNavButton() {
         profileTabNavButton.click();
-         return new ProfileTabPage(androidDriver);
+        return new ProfileTabPage(androidDriver);
     }
 
     @AndroidFindBy(className = "android.widget.Button")
     private WebElement doThisLaterButton;
 
-    public void clickDoThisLaterButton(){
-        waitForElementToBeVisible(20,doThisLaterButton);
+    public void clickDoThisLaterButton() {
+        waitForElementToBeVisible(20, doThisLaterButton);
         doThisLaterButton.click();
     }
 
@@ -64,10 +66,10 @@ public HomeTabPage(AndroidDriver androidDriver){
     private WebElement activityGoalTitle;
 
     // Activity Widget
-    @AndroidFindBy (xpath = "//android.widget.TextView[@text=\"min\"]")
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"min\"]")
     private WebElement activityWidget;
 
-    public ActivityTabPage clickActivityWidget(){
+    public ActivityTabPage clickActivityWidget() {
         activityWidget.click();
         return new ActivityTabPage(androidDriver);
     }
@@ -76,13 +78,34 @@ public HomeTabPage(AndroidDriver androidDriver){
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Health')]")
     private WebElement healthSection;
 
+    // Wellness health tile
+    @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Wellness\"]")
+    private WebElement wellnessTile;
+
+    // Enable Heath Report Dialog
+    @AndroidFindBy(xpath = "//android.widget.ImageView[@content-desc=\"Enable Health report\"]")
+    private WebElement enableHeathReportDialog;
+
+    //
+    @AndroidFindBy(id = "com.android.chrome:id/url_bar")
+    private WebElement url_bar;
+
+    public String getterURLFromChrome() {
+        return url_bar.getText();
+    }
+
     // Journal Section
     @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'Journal')]")
     private WebElement journalSection;
 
-    // Journal Section
-    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'This week']")
+    // Journal Section > This week heading
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"This week\"]")
     private WebElement thisWeekHeading;
+
+
+    // Journal Section All check-ins link
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text=\"All check-ins\"]")
+    private WebElement allCheckInsLink;
 
     //bottom nav bar
     @AndroidFindBy(xpath = "//androidx.compose.ui.platform.ComposeView/android.view.View/android.view.View/android.view.View[3]")
@@ -92,6 +115,9 @@ public HomeTabPage(AndroidDriver androidDriver){
     @AndroidFindBy(xpath = "//android.view.View[@content-desc=\"Check-in\"]")
     private WebElement checkInButton;
 
+    //Mood selector modal
+    @AndroidFindBy(xpath = "//android.widget.TextView[contains(@text, 'feeling right now?')]")
+    private WebElement checkInMoodSelectorModal;
 
     // Actions---------------------------------------------
     public boolean isPetProfileVisible() {
@@ -110,10 +136,11 @@ public HomeTabPage(AndroidDriver androidDriver){
         return checkInButton.isDisplayed();
     }
 
-    public void  backFromCheckInScreen() {
+/*    public void backFromCheckInScreen() {
         androidDriver.navigate().back();
     }
-
+    this method moved to Android actions class
+*/
     public void clickCheckInButton() {
         checkInButton.click();
     }
@@ -144,4 +171,27 @@ public HomeTabPage(AndroidDriver androidDriver){
         return bottomNavBar.isEnabled();
     }
 
+    public void clickHealthSection() {
+        wellnessTile.click();
+    }
+
+    public boolean isEnableHeathReportDialogDisplayed() {
+        try {
+            return enableHeathReportDialog.isDisplayed();
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+
+    }
+
+
+    public boolean isCheckInMoodSelectorModalVisible() {
+        return checkInMoodSelectorModal.isDisplayed();
+    }
+
+    public JournalListPage clickAllCheckInsLink() {
+        allCheckInsLink.click();
+        //also return next screen/page object
+        return new JournalListPage(androidDriver);
+    }
 }

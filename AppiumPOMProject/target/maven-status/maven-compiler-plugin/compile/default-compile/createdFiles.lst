@@ -1,0 +1,15 @@
+pageObjects\android\YourInformationPage.class
+pageObjects\android\CreateAccountPage.class
+androidActionsUtils\AppiumCommonActions$1.class
+pageObjects\android\HomeTabPage.class
+androidActionsUtils\AppiumCommonActions.class
+pageObjects\android\LetsGoPage.class
+pageObjects\android\ForgotPasswordPage.class
+pageObjects\android\JournalListPage.class
+pageObjects\android\ActivityTabPage.class
+androidActionsUtils\AndroidActions.class
+pageObjects\android\SignInPage.class
+pageObjects\android\WhatsYourEmailPage.class
+pageObjects\android\ProfileTabPage.class
+pageObjects\android\WhistleSetupPage.class
+androidActionsUtils\IosActions.class

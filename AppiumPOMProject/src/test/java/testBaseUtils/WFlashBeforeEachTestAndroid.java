@@ -55,13 +55,13 @@ public class WFlashBeforeEachTestAndroid extends AppiumCommonActions {
         uiAutomator2Options.autoGrantPermissions();
 
         //androidDriver = new AndroidDriver(new URL("http://127.0.0.1:4723"), uiAutomator2Options);
-        androidDriver = new AndroidDriver(appiumDriverLocalService.getUrl(), uiAutomator2Options);
+        //androidDriver = new AndroidDriver(appiumDriverLocalService.getUrl(), uiAutomator2Options);
 
         //below code is to apply global implicit wait
-        androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+       // androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         //code above is common for all tests
-        letsGoPage = new LetsGoPage(androidDriver); // created the first screen object inside before class method
+       // letsGoPage = new LetsGoPage(androidDriver); // created the first screen object inside before class method
     }
 
     @AfterClass(alwaysRun = true)

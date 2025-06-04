@@ -105,7 +105,7 @@ public class HomeTabTestClass extends WFlashBeforeEachTestAndroid {
         homeTabPage.tapTopMiddleByCoordinates();
 
         homeTabPage.clickCheckInButton();
-        homeTabPage.backFromCheckInScreen();
+        homeTabPage.navigateBackFromScreen();
         // Add verification for successful check-in if necessary
     }
 

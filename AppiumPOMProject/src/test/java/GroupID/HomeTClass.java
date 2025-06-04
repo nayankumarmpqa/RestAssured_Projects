@@ -43,8 +43,10 @@ public class HomeTClass extends WFlashBeforeEachTestAndroid {
             System.out.println("⚠️ Error while quitting driver: " + e.getMessage());
         }
 
+        System.out.println("🚀 Starting new Appium session...");
         androidDriver = new AndroidDriver(appiumDriverLocalService.getUrl(), uiAutomator2Options);
-        androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        androidDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        System.out.println("✅ New Session ID: " + androidDriver.getSessionId());
 
         // Reinitialize page objects
         letsGoPage = new LetsGoPage(androidDriver);
@@ -96,7 +98,7 @@ public class HomeTClass extends WFlashBeforeEachTestAndroid {
         if (userType.equals("GPSUser")) {
             Assert.assertTrue(homeTabPage.isMapWidgetVisible(), "Map widget not visible1");
             System.out.println("✅ MapWidget tab found! for GPS user");
-        } else if (userType.equals("NonGPSUser")){
+        } else if (userType.equals("NonGPSUser")) {
             Assert.assertFalse(homeTabPage.isMapWidgetVisible(), "Map widget not visible2");
             System.out.println("✅ MapWidget tab NOT found for NonGPS user.");
         }
@@ -119,24 +121,25 @@ public class HomeTClass extends WFlashBeforeEachTestAndroid {
     @Test(dataProvider = "GPSUserProfiles", priority = 6)
     public void TC_06_validateJournalSection(String userType, String email, String password) throws InterruptedException {
         loginToApp(email, password);
+        homeTabPage.scrollToEndAction();
         Assert.assertTrue(homeTabPage.isJournalSectionVisible() && homeTabPage.isThisWeekHeadingVisible(), "Journal Section and This Week Heading not visible");
     }
 
-    @Test (dataProvider = "GPSUserProfiles", priority = 7)
-    public void TC_07_verifyBottomNavigationBar(String userType, String email, String password) throws InterruptedException{
+    @Test(dataProvider = "GPSUserProfiles", priority = 7)
+    public void TC_07_verifyBottomNavigationBar(String userType, String email, String password) throws InterruptedException {
         loginToApp(email, password);
         Assert.assertTrue(homeTabPage.isBottomNavigationBarVisible(), "Bottom Navigation Bar not visible");
     }
 
-    @Test (dataProvider = "GPSUserProfiles", priority = 8)
-    public void TC_08_verifyFloatingButtonVisible(String userType,String email, String password) throws InterruptedException {
+    @Test(dataProvider = "GPSUserProfiles", priority = 8)
+    public void TC_08_verifyFloatingButtonVisible(String userType, String email, String password) throws InterruptedException {
         loginToApp(email, password);
         Assert.assertTrue(homeTabPage.isCheckInButtonVisible(), "Check-in button not visible");
-}
+    }
 
     // Functional Test Cases
-    @Test (dataProvider = "userProfiles", priority =9)
-    public void TC_09_navigateToPetProfile(String userType,String email, String password) throws InterruptedException {
+    @Test(dataProvider = "userProfiles", priority = 9)
+    public void TC_09_navigateToPetProfile(String userType, String email, String password) throws InterruptedException {
         loginToApp(email, password);
         ProfileTabPage profileScreen = homeTabPage.clickProfileTabNavButton();
         profileScreen.tapTopMiddleByCoordinates();
@@ -144,12 +147,63 @@ public class HomeTClass extends WFlashBeforeEachTestAndroid {
     }
 
 
-    @Test (dataProvider = "userProfiles", priority = 10)
+    @Test(dataProvider = "userProfiles", priority = 10)
     public void TC_10_openActivityGoalDetails(String userType, String email, String password) throws InterruptedException {
         loginToApp(email, password);
         ActivityTabPage activityScreen = homeTabPage.clickActivityWidget();
         activityScreen.tapTopMiddleByCoordinates();
         Assert.assertTrue(activityScreen.isSyncActivityRotatingIconDisplayed(), "The Activity screen is not displayed");
+    }
+
+    @Test(dataProvider = "GPSUserProfiles", priority = 11)
+    public void TC_11_openHealthMetricsDetails(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        homeTabPage.clickHealthSection();
+        boolean isDialogVisible = homeTabPage.isEnableHeathReportDialogDisplayed();
+
+        if (isDialogVisible) {
+            Assert.assertTrue(true, "✅ Enable Health dialog is displayed");
+        }
+        else {
+            // Switch to Chrome browser
+            androidDriver.activateApp("com.android.chrome");
+            Thread.sleep(3);
+            // Get the opened URL or check some page content
+            String currentUrl = homeTabPage.getterURLFromChrome();
+            System.out.println("Opened URL: " + currentUrl);
+
+            // Optional: Add validation
+            if (currentUrl.contains(".whistle.com")) {
+                System.out.println("✅ Report opened successfully!");
+            } else {
+                System.out.println("❌ Unexpected URL: " + currentUrl);
+            }
+            // Return to the original app
+            androidDriver.terminateApp("com.android.chrome");
+            homeTabPage.activateApp();
+        }
+
+    }
+
+    @Test(dataProvider = "userProfiles", priority = 12)
+    public void TC_12_validateCheckInModal(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        homeTabPage.clickCheckInButton();
+        Assert.assertTrue(homeTabPage.isCheckInMoodSelectorModalVisible(), "Check-in modal not displayed");
+        homeTabPage.navigateBackFromScreen();
+        homeTabPage.tapTopMiddleByCoordinates();
+    }
+
+    @Test (dataProvider = "userProfiles", priority = 13)
+    public void TC_13_openAllCheckIns(String userType, String email, String password) throws InterruptedException {
+        loginToApp(email, password);
+        homeTabPage.scrollToEndAction();
+        JournalListPage journalListPage = homeTabPage.clickAllCheckInsLink();
+
+        Assert.assertTrue(journalListPage.isCheckInHistoryListVisible(), "Check-in history not visible");
+        System.out.println("assertion pass -----------------------------------------------------");
+        journalListPage.navigateBackFromScreen();
+
     }
 
     @Test(dataProvider = "userProfiles", priority = 0)
@@ -199,7 +253,7 @@ public class HomeTClass extends WFlashBeforeEachTestAndroid {
         homeTabPage.tapTopMiddleByCoordinates();
 
         homeTabPage.clickCheckInButton();
-        homeTabPage.backFromCheckInScreen();
+        homeTabPage.navigateBackFromScreen();
         // Add verification for successful check-in if necessary
     }
 

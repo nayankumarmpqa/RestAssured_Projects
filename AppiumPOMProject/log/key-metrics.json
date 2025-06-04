@@ -1,8 +1,8 @@
 [ {
-  "duration" : 1.6370999813079834,
-  "eventName" : "sdk:cli:start",
-  "startTime" : 1.0371758868651E9,
-  "success" : false,
+  "duration" : 0.017199993133544922,
+  "eventName" : "sdk:pre-test",
+  "startTime" : 1.0528487755283E9,
+  "success" : true,
   "worker" : 1,
   "failure" : null,
   "details" : null,
@@ -11,5 +11,5 @@
   "command" : null,
   "testName" : null,
   "hookType" : "",
-  "cli" : true
+  "cli" : false
 } ]

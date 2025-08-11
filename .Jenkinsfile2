@@ -1,0 +1,31 @@
+pipeline{
+
+agent any
+
+stages
+	{
+  stage('Build stage1') {
+            steps {
+                echo 'this is stage 1 step 1 to build the project say mvn clean'
+            }
+        }
+		
+	stage('Deoploy to QA server stage2') {
+            steps {
+                echo 'this is stage 1 step 1 to build the project say mvn compile'
+            }
+        }
+	stage('Test on QA server stage3') {
+            steps {
+                echo 'this is stage 1 step 1 to build the project say mvn test'
+            }
+        }	
+		
+	stage('Release after QA on server done stage4') {
+            steps {
+                echo 'this is stage 1 step 1 to build the project say mvn test'
+            }
+        }		
+
+	}
+}
